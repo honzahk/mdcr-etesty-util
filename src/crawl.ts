@@ -1,10 +1,11 @@
-"use strict";
-const puppeteer = require("puppeteer");
-const fs = require("fs");
+import puppeteer from "puppeteer";
+import fs from "fs";
+
+export const moduleSimulation = 3;
 
 (async function() {
     const browser = await puppeteer.launch({
-        headless: false,
+        // headless: false,
         defaultViewport: null,
         args: ["--start-maximized"]
     });
@@ -23,7 +24,12 @@ const fs = require("fs");
                 "href"
             )}`;
             const topicTitle = topicHref.innerHTML;
-            topics.push({ link: topicLink, title: topicTitle });
+            topics.push({
+                link: topicLink,
+                number: topicNum,
+                title: topicTitle,
+                questionCount: null
+            });
         }
         return topics;
     });
@@ -37,7 +43,7 @@ const fs = require("fs");
 
         //click button to sort all questions by code
         await page.$eval("#sortRandomButtonID", input => {
-            input.click();
+            (input as HTMLInputElement).click();
         });
 
         //read the count of questions
@@ -53,6 +59,11 @@ const fs = require("fs");
             questionNum = await page.$eval("#questionCounterID", span => {
                 //inner html of this span is always like "1 z 30"
                 return parseInt(span.innerHTML.split(" ")[0]);
+            });
+
+            //press "next" button to highlight the correct answer - the answer children elements will get class "correct" or "incorrect"
+            await page.$eval("#nextButtonID", input => {
+                (input as HTMLInputElement).click();
             });
 
             const question = await page.$eval(
@@ -95,8 +106,8 @@ const fs = require("fs");
                             .querySelectorAll(".question-text")
                             .item(0)
                             .innerHTML.trim();
-                        imageCount = div.querySelector(".image-frame").children
-                            .length;
+                        const imageCount = div.querySelector(".image-frame")
+                            .children.length;
                         imageLinks = [...Array(imageCount).keys()].map(
                             imageNum => {
                                 return `http://etesty2.mdcr.cz${div
@@ -107,33 +118,33 @@ const fs = require("fs");
                         );
                     }
 
-                    const answerCount = div.children[2].children.length;
-
                     return {
                         number: questionNum,
                         text: questionText,
                         type: questionType,
                         videoLink: videoLink,
                         imageLinks: imageLinks,
-                        answers: [...Array(answerCount).keys()].map(
-                            answerNum => {
-                                const text = div.children[2].children
-                                    .item(answerNum)
-                                    .children[1].innerHTML.trim();
-                                const isCorrect = answerNum == 0;
-                                return { text, isCorrect };
-                            }
-                        )
+                        answers: null
                     };
                 },
                 questionNum
             );
+
+            question.answers = await page.$eval(".answer-container", div => {
+                const answerCount = div.children.length;
+                return [...Array(answerCount).keys()].map(answerNum => {
+                    const answerDiv = div.children.item(answerNum);
+                    const isCorrect = answerDiv.classList.contains("correct");
+                    const text = answerDiv.children.item(1).innerHTML;
+                    return { text, isCorrect };
+                });
+            });
+
             questions.push(question);
 
-            //press "next" button to get correct answer - the answer elements will get class "correct" or "incorrect"
+            //press "next" to go to next question
             await page.$eval("#nextButtonID", input => {
-                input.click();
-                input.click();
+                (input as HTMLInputElement).click();
             });
         }
 
