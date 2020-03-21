@@ -1,12 +1,12 @@
 [
     {
         "link": "http://etesty2.mdcr.cz/Test/TestPractise/26",
-        "number": 0,
+        "index": 0,
         "title": "Teorie pokročilého racionálního řízení a ZBJ",
         "questionCount": 30,
         "questions": [
             {
-                "number": 1,
+                "index": 1,
                 "text": "Schopnost pneumatik přenášet síly na podklad:",
                 "type": "text",
                 "videoLink": null,
@@ -27,7 +27,7 @@
                 ]
             },
             {
-                "number": 2,
+                "index": 2,
                 "text": "Uzávěrka diferenciálu zabezpečí, že se na obě kola jedné nápravy:",
                 "type": "text",
                 "videoLink": null,
@@ -48,7 +48,7 @@
                 ]
             },
             {
-                "number": 3,
+                "index": 3,
                 "text": "Diferenciál při průjezdu zatáčkou umožňuje:",
                 "type": "text",
                 "videoLink": null,
@@ -69,7 +69,7 @@
                 ]
             },
             {
-                "number": 4,
+                "index": 4,
                 "text": "Akumulátoru škodí:",
                 "type": "text",
                 "videoLink": null,
@@ -90,7 +90,7 @@
                 ]
             },
             {
-                "number": 5,
+                "index": 5,
                 "text": "Kapacita akumulátoru s klesající teplotou okolí:",
                 "type": "text",
                 "videoLink": null,
@@ -111,7 +111,7 @@
                 ]
             },
             {
-                "number": 6,
+                "index": 6,
                 "text": "Nesprávná geometrie řídicí nápravy:",
                 "type": "text",
                 "videoLink": null,
@@ -132,7 +132,7 @@
                 ]
             },
             {
-                "number": 7,
+                "index": 7,
                 "text": "Při krizovém brzdění s nákladním automobilem s návěsem s ABS na mokrém povrchu musí řidič:",
                 "type": "text",
                 "videoLink": null,
@@ -153,7 +153,7 @@
                 ]
             },
             {
-                "number": 8,
+                "index": 8,
                 "text": "Při krizovém brzdění s nákladním automobilem bez ABS na suchém povrchu musí řidič:",
                 "type": "text",
                 "videoLink": null,
@@ -174,7 +174,7 @@
                 ]
             },
             {
-                "number": 9,
+                "index": 9,
                 "text": "Při brzdění s nákladním automobilem bez ABS na zasněženém povrchu musí řidič:",
                 "type": "text",
                 "videoLink": null,
@@ -195,7 +195,7 @@
                 ]
             },
             {
-                "number": 10,
+                "index": 10,
                 "text": "Při krizovém brzdění s nákladním automobilem s návěsem vybaveném ABS na suchém povrchu musí řidič:",
                 "type": "text",
                 "videoLink": null,
@@ -216,7 +216,7 @@
                 ]
             },
             {
-                "number": 11,
+                "index": 11,
                 "text": "Při přetočení motoru:",
                 "type": "text",
                 "videoLink": null,
@@ -237,7 +237,7 @@
                 ]
             },
             {
-                "number": 12,
+                "index": 12,
                 "text": "Při řízení patrového autobusu musí řidič brát do úvahy:",
                 "type": "text",
                 "videoLink": null,
@@ -258,7 +258,7 @@
                 ]
             },
             {
-                "number": 13,
+                "index": 13,
                 "text": "Způsob řízení autobusu výrazně ovlivňuje:",
                 "type": "text",
                 "videoLink": null,
@@ -279,7 +279,7 @@
                 ]
             },
             {
-                "number": 14,
+                "index": 14,
                 "text": "Za předjíždění se nepovažuje, jestliže je hustota provozu v jednom směru jízdy:",
                 "type": "text",
                 "videoLink": null,
@@ -300,7 +300,7 @@
                 ]
             },
             {
-                "number": 15,
+                "index": 15,
                 "text": "Odlehčovací brzdové systémy, např.Telma, je vhodné používat u autobusů:",
                 "type": "text",
                 "videoLink": null,
@@ -321,7 +321,7 @@
                 ]
             },
             {
-                "number": 16,
+                "index": 16,
                 "text": "Odlehčovací brzdové systémy nákladních automobilů (například retardér) je vhodné používat:",
                 "type": "text",
                 "videoLink": null,
@@ -342,7 +342,7 @@
                 ]
             },
             {
-                "number": 17,
+                "index": 17,
                 "text": "Pokud na opravu defektu bezdušové pneumatiky je nezbytné použít duši:",
                 "type": "text",
                 "videoLink": null,
@@ -363,7 +363,7 @@
                 ]
             },
             {
-                "number": 18,
+                "index": 18,
                 "text": "Elektronický stabilizační systém (ESP):",
                 "type": "text",
                 "videoLink": null,
@@ -384,7 +384,7 @@
                 ]
             },
             {
-                "number": 19,
+                "index": 19,
                 "text": "Defenzivní způsob jízdy:",
                 "type": "text",
                 "videoLink": null,
@@ -405,7 +405,7 @@
                 ]
             },
             {
-                "number": 20,
+                "index": 20,
                 "text": "Délka reakčního času řidiče:",
                 "type": "text",
                 "videoLink": null,
@@ -426,7 +426,7 @@
                 ]
             },
             {
-                "number": 21,
+                "index": 21,
                 "text": "Vozidlo vybavené brzdovým systémem ABS:",
                 "type": "text",
                 "videoLink": null,
@@ -447,7 +447,7 @@
                 ]
             },
             {
-                "number": 22,
+                "index": 22,
                 "text": "Při sníženém tlaku v pneumatikách trpí podstatně větším opotřebením:",
                 "type": "text",
                 "videoLink": null,
@@ -468,7 +468,7 @@
                 ]
             },
             {
-                "number": 23,
+                "index": 23,
                 "text": "Použití duší do poškozeného pláště TUBELESS, je možno v případě:",
                 "type": "text",
                 "videoLink": null,
@@ -489,7 +489,7 @@
                 ]
             },
             {
-                "number": 24,
+                "index": 24,
                 "text": "Podhuštěná pneumatika:",
                 "type": "text",
                 "videoLink": null,
@@ -510,7 +510,7 @@
                 ]
             },
             {
-                "number": 25,
+                "index": 25,
                 "text": "Přerušované brzdění:",
                 "type": "text",
                 "videoLink": null,
@@ -531,7 +531,7 @@
                 ]
             },
             {
-                "number": 26,
+                "index": 26,
                 "text": "Dodržování a pravidelná kontrola stanoveného tlaku v pneumatikách ovlivňuje:",
                 "type": "text",
                 "videoLink": null,
@@ -552,7 +552,7 @@
                 ]
             },
             {
-                "number": 27,
+                "index": 27,
                 "text": "Defenzivní způsob jízdy:",
                 "type": "text",
                 "videoLink": null,
@@ -573,7 +573,7 @@
                 ]
             },
             {
-                "number": 28,
+                "index": 28,
                 "text": "Řidič článkového autobusu před zastavením v zastávce (zálivu) opíše přední nápravou malý oblouk směrem od obrubníku, tzv. zvláštní manévr. Tento manévr mu umožní:",
                 "type": "text",
                 "videoLink": null,
@@ -594,7 +594,7 @@
                 ]
             },
             {
-                "number": 29,
+                "index": 29,
                 "text": "Na rozdíl od ostatních řidičů musí řidič autobusu při jízdě věnovat pozornost navíc:",
                 "type": "text",
                 "videoLink": null,
@@ -615,7 +615,7 @@
                 ]
             },
             {
-                "number": 30,
+                "index": 30,
                 "text": "Kouření při jízdě je zakázáno:",
                 "type": "text",
                 "videoLink": null,
@@ -639,12 +639,12 @@
     },
     {
         "link": "http://etesty2.mdcr.cz/Test/TestPractise/27",
-        "number": 1,
+        "index": 1,
         "title": "Uplatnění vnitrostátních a mezinárodních právních ",
         "questionCount": 98,
         "questions": [
             {
-                "number": 1,
+                "index": 1,
                 "text": "Jaká musí být dodržena vzdálenost mezi jednotlivými dopravními prostředky kolony vozidel nebo jízdních souprav přepravujících výbušniny, musí-li kolona zastavit z provozních důvodů?",
                 "type": "text",
                 "videoLink": null,
@@ -665,7 +665,7 @@
                 ]
             },
             {
-                "number": 2,
+                "index": 2,
                 "text": "Kdo povoluje zvláštní užívání silnic formou přepravy zvlášť těžkých nebo rozměrných předmětů a užívání vozidel, jejichž rozměry nebo hmotnost přesahují míru stanovenou zvláštními předpisy?",
                 "type": "text",
                 "videoLink": null,
@@ -686,7 +686,7 @@
                 ]
             },
             {
-                "number": 3,
+                "index": 3,
                 "text": "Při tomto pokynu policisty je vaší povinností, jako řidiče vozidla z výhledu,  zastavit vozidlo před hranicí křižovatky?",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2979",
@@ -703,7 +703,7 @@
                 ]
             },
             {
-                "number": 4,
+                "index": 4,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2981",
@@ -724,7 +724,7 @@
                 ]
             },
             {
-                "number": 5,
+                "index": 5,
                 "text": "Jedete v obci jako řidič vozidla z výhledu. Je vaší povinností umožnit autobusu vyjetí ze zastávky?",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2985",
@@ -745,7 +745,7 @@
                 ]
             },
             {
-                "number": 6,
+                "index": 6,
                 "text": "Jako řidič vozidla z výhledu projedete touto křižovatkou:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2987",
@@ -766,7 +766,7 @@
                 ]
             },
             {
-                "number": 7,
+                "index": 7,
                 "text": "Jste řidičem vozidla z výhledu. Na křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2989",
@@ -787,7 +787,7 @@
                 ]
             },
             {
-                "number": 8,
+                "index": 8,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2991",
@@ -808,7 +808,7 @@
                 ]
             },
             {
-                "number": 9,
+                "index": 9,
                 "text": "K přechodu pro chodce je řidič povinen se přibližovat:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2993",
@@ -829,7 +829,7 @@
                 ]
             },
             {
-                "number": 10,
+                "index": 10,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2997",
@@ -850,7 +850,7 @@
                 ]
             },
             {
-                "number": 11,
+                "index": 11,
                 "text": "Jako řidič vozidla z výhledu:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/2999",
@@ -871,7 +871,7 @@
                 ]
             },
             {
-                "number": 12,
+                "index": 12,
                 "text": "Můžete jako řidič vozidla z výhledu vjet do křižovatky před vozidlem, které přijíždí zleva?",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3003",
@@ -892,7 +892,7 @@
                 ]
             },
             {
-                "number": 13,
+                "index": 13,
                 "text": "Jste řidičem vozidla z výhledu. Při jízdě křižovatkou:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3005",
@@ -913,7 +913,7 @@
                 ]
             },
             {
-                "number": 14,
+                "index": 14,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3007",
@@ -934,7 +934,7 @@
                 ]
             },
             {
-                "number": 15,
+                "index": 15,
                 "text": "Jste řidičem vozidla z výhledu. Při jízdě křižovatkou, která je znázorněna na obrázku:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3009",
@@ -955,7 +955,7 @@
                 ]
             },
             {
-                "number": 16,
+                "index": 16,
                 "text": "Blížíte se k místu, kde si děti hrají na chodníku. Jak se musíte zachovat?",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3011",
@@ -976,7 +976,7 @@
                 ]
             },
             {
-                "number": 17,
+                "index": 17,
                 "text": "Jste řidičem vozidla z výhledu. Ve vyobrazené dopravní situaci:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3013",
@@ -997,7 +997,7 @@
                 ]
             },
             {
-                "number": 18,
+                "index": 18,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3015",
@@ -1018,7 +1018,7 @@
                 ]
             },
             {
-                "number": 19,
+                "index": 19,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3017",
@@ -1039,7 +1039,7 @@
                 ]
             },
             {
-                "number": 20,
+                "index": 20,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3019",
@@ -1060,7 +1060,7 @@
                 ]
             },
             {
-                "number": 21,
+                "index": 21,
                 "text": "Jste řidičem vozidla z výhledu. Na této křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3021",
@@ -1081,7 +1081,7 @@
                 ]
             },
             {
-                "number": 22,
+                "index": 22,
                 "text": "Jste řidičem vozidla z výhledu. Na křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3027",
@@ -1102,7 +1102,7 @@
                 ]
             },
             {
-                "number": 23,
+                "index": 23,
                 "text": "Jste řidičem vozidla z výhledu. Na této křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3029",
@@ -1123,7 +1123,7 @@
                 ]
             },
             {
-                "number": 24,
+                "index": 24,
                 "text": "Jste řidičem vozidla z výhledu. Na křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3031",
@@ -1144,7 +1144,7 @@
                 ]
             },
             {
-                "number": 25,
+                "index": 25,
                 "text": "Jste řidičem vozidla z výhledu. Křižovatkou projedete jako:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3033",
@@ -1165,7 +1165,7 @@
                 ]
             },
             {
-                "number": 26,
+                "index": 26,
                 "text": "Jste řidičem vozidla z výhledu. Křižovatkou projedete jako:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3035",
@@ -1186,7 +1186,7 @@
                 ]
             },
             {
-                "number": 27,
+                "index": 27,
                 "text": "Jste řidičem vozidla z výhledu. Křižovatkou projedete jako:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3039",
@@ -1207,7 +1207,7 @@
                 ]
             },
             {
-                "number": 28,
+                "index": 28,
                 "text": "Která z vyobrazených dopravních značek neupravuje přednost?",
                 "type": "image",
                 "videoLink": null,
@@ -1232,7 +1232,7 @@
                 ]
             },
             {
-                "number": 29,
+                "index": 29,
                 "text": "Která z těchto dopravních značek zakazuje zastavení?",
                 "type": "image",
                 "videoLink": null,
@@ -1257,7 +1257,7 @@
                 ]
             },
             {
-                "number": 30,
+                "index": 30,
                 "text": "Která z vyobrazených dodatkových tabulek vyznačuje úsek platnosti dopravní značky, pod kterou je umístěna:",
                 "type": "image",
                 "videoLink": null,
@@ -1282,7 +1282,7 @@
                 ]
             },
             {
-                "number": 31,
+                "index": 31,
                 "text": "Označte dodatkovou tabulku, která vyznačuje vzdálenost k místu, od kterého platí značka, pod níž je tato dodatková tabulka umístěna.",
                 "type": "image",
                 "videoLink": null,
@@ -1307,7 +1307,7 @@
                 ]
             },
             {
-                "number": 32,
+                "index": 32,
                 "text": "Která z vyobrazených dopravních značek označuje hlavní pozemní komunikaci.",
                 "type": "image",
                 "videoLink": null,
@@ -1332,7 +1332,7 @@
                 ]
             },
             {
-                "number": 33,
+                "index": 33,
                 "text": "Která z vyobrazených dodatkových tabulek vyznačuje skutečný tvar křižovatky a současně i hlavní a vedlejší pozemní komunikaci:",
                 "type": "image",
                 "videoLink": null,
@@ -1357,7 +1357,7 @@
                 ]
             },
             {
-                "number": 34,
+                "index": 34,
                 "text": "Která z vyobrazených dodatkových tabulek vyznačuje směr k místu, ke kterému se vztahuje dopravní značka, pod kterou je tato tabulka umístěna:",
                 "type": "image",
                 "videoLink": null,
@@ -1382,7 +1382,7 @@
                 ]
             },
             {
-                "number": 35,
+                "index": 35,
                 "text": "Jsou v rámci zemí Evropy sjednocené dopravní značky?",
                 "type": "text",
                 "videoLink": null,
@@ -1403,7 +1403,7 @@
                 ]
             },
             {
-                "number": 36,
+                "index": 36,
                 "text": "Jezdí se ve všech státech Evropy vpravo?",
                 "type": "text",
                 "videoLink": null,
@@ -1424,7 +1424,7 @@
                 ]
             },
             {
-                "number": 37,
+                "index": 37,
                 "text": "Na přepravu do Velké Británie je potřebné využít:",
                 "type": "text",
                 "videoLink": null,
@@ -1445,7 +1445,7 @@
                 ]
             },
             {
-                "number": 38,
+                "index": 38,
                 "text": "Na která vozidla se uplatňuje mýto v Rakousku?",
                 "type": "text",
                 "videoLink": null,
@@ -1466,7 +1466,7 @@
                 ]
             },
             {
-                "number": 39,
+                "index": 39,
                 "text": "Kdo je podle zákona o silniční dopravě provozovatelem silniční dopravy (dopravcem)?",
                 "type": "text",
                 "videoLink": null,
@@ -1487,7 +1487,7 @@
                 ]
             },
             {
-                "number": 40,
+                "index": 40,
                 "text": "Co se rozumí nebezpečnými věcmi?",
                 "type": "text",
                 "videoLink": null,
@@ -1508,7 +1508,7 @@
                 ]
             },
             {
-                "number": 41,
+                "index": 41,
                 "text": "Nebezpečné věci se s ohledem na jejich nebezpečné vlastnosti zařazují:",
                 "type": "text",
                 "videoLink": null,
@@ -1529,7 +1529,7 @@
                 ]
             },
             {
-                "number": 42,
+                "index": 42,
                 "text": "V době přepravního procesu je zakázáno kouření při jízdě:",
                 "type": "text",
                 "videoLink": null,
@@ -1550,7 +1550,7 @@
                 ]
             },
             {
-                "number": 43,
+                "index": 43,
                 "text": "Za protiprávní jednání při přepravě nebezpečného nákladu se považuje:",
                 "type": "text",
                 "videoLink": null,
@@ -1571,7 +1571,7 @@
                 ]
             },
             {
-                "number": 44,
+                "index": 44,
                 "text": "Eurolicenci musí mít dopravci, kteří provozují:",
                 "type": "text",
                 "videoLink": null,
@@ -1592,7 +1592,7 @@
                 ]
             },
             {
-                "number": 45,
+                "index": 45,
                 "text": "Odchylná úprava pracovní doby a doby odpočinku se vztahuje na zaměstnance v pracovní pozici:",
                 "type": "text",
                 "videoLink": null,
@@ -1613,7 +1613,7 @@
                 ]
             },
             {
-                "number": 46,
+                "index": 46,
                 "text": "Je celník ve stejnokroji oprávněn zastavit vozidlo v systému elektronického mýtného a podrobit vozidlo kontrole, zda je vybaveno funkčním elektronickým zařízením a zda je evidováno v systému elektronického mýtného?",
                 "type": "text",
                 "videoLink": null,
@@ -1634,7 +1634,7 @@
                 ]
             },
             {
-                "number": 47,
+                "index": 47,
                 "text": "Kdo je povinen uzavřít pojistnou smlouvu o pojištění odpovědnosti za škodu způsobenou provozem vozidla?",
                 "type": "text",
                 "videoLink": null,
@@ -1655,7 +1655,7 @@
                 ]
             },
             {
-                "number": 48,
+                "index": 48,
                 "text": "Denní pracovní přestávka, v délce nejméně 45 minut, se může rozdělit na dvě části z níž první může být:",
                 "type": "text",
                 "videoLink": null,
@@ -1676,7 +1676,7 @@
                 ]
             },
             {
-                "number": 49,
+                "index": 49,
                 "text": "Pokud jsou ve vozidle přítomni nejméně dva řidiči, pak každý z nich musí mít odpočinek:",
                 "type": "text",
                 "videoLink": null,
@@ -1697,7 +1697,7 @@
                 ]
             },
             {
-                "number": 50,
+                "index": 50,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3104",
@@ -1718,7 +1718,7 @@
                 ]
             },
             {
-                "number": 51,
+                "index": 51,
                 "text": "Náhradním kolem (ráfkem s pneumatikou), klíčem na matice (šrouby) a zvedákem musí být vybaveny:",
                 "type": "text",
                 "videoLink": null,
@@ -1739,7 +1739,7 @@
                 ]
             },
             {
-                "number": 52,
+                "index": 52,
                 "text": "V současné době musí být nová vozidla kategorie M2 třídy B a M3 třídy B a III vybavena předepsanými bezpečnostními pásy:",
                 "type": "text",
                 "videoLink": null,
@@ -1760,7 +1760,7 @@
                 ]
             },
             {
-                "number": 53,
+                "index": 53,
                 "text": "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 "type": "video",
                 "videoLink": "http://etesty2.mdcr.cz/Content/ImageQuestion/3091",
@@ -1781,7 +1781,7 @@
                 ]
             },
             {
-                "number": 54,
+                "index": 54,
                 "text": "Co se rozumí pod pojmem \"běžná denní doba odpočinku\"?",
                 "type": "text",
                 "videoLink": null,
@@ -1802,7 +1802,7 @@
                 ]
             },
             {
-                "number": 55,
+                "index": 55,
                 "text": "Běžnou denní dobu odpočinku je možno rozdělit do:",
                 "type": "text",
                 "videoLink": null,
@@ -1823,7 +1823,7 @@
                 ]
             },
             {
-                "number": 56,
+                "index": 56,
                 "text": "Doba řízení se počítá:",
                 "type": "text",
                 "videoLink": null,
@@ -1844,7 +1844,7 @@
                 ]
             },
             {
-                "number": 57,
+                "index": 57,
                 "text": "Učební osnovu pravidelného školení při zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., stanoví:",
                 "type": "text",
                 "videoLink": null,
@@ -1865,7 +1865,7 @@
                 ]
             },
             {
-                "number": 58,
+                "index": 58,
                 "text": "Zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., může provádět:",
                 "type": "text",
                 "videoLink": null,
@@ -1886,7 +1886,7 @@
                 ]
             },
             {
-                "number": 59,
+                "index": 59,
                 "text": "Předmětem pravidelného školení při zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., je:",
                 "type": "text",
                 "videoLink": null,
@@ -1907,7 +1907,7 @@
                 ]
             },
             {
-                "number": 60,
+                "index": 60,
                 "text": "Přestávka v řízení je doba:",
                 "type": "text",
                 "videoLink": null,
@@ -1928,7 +1928,7 @@
                 ]
             },
             {
-                "number": 61,
+                "index": 61,
                 "text": "Doba odpočinku je:",
                 "type": "text",
                 "videoLink": null,
@@ -1949,7 +1949,7 @@
                 ]
             },
             {
-                "number": 62,
+                "index": 62,
                 "text": "Denní doba řízení v pracovním režimu podle Nařízení č. 561/2006:",
                 "type": "text",
                 "videoLink": null,
@@ -1970,7 +1970,7 @@
                 ]
             },
             {
-                "number": 63,
+                "index": 63,
                 "text": "Celková doba řízení v pracovním režimu podle Nařízení č. 561/2006:",
                 "type": "text",
                 "videoLink": null,
@@ -1991,7 +1991,7 @@
                 ]
             },
             {
-                "number": 64,
+                "index": 64,
                 "text": "Nepřerušenou přestávku nejméně 45 minut (pokud nezapočne dobu odpočinku) musí řidič zařadit:",
                 "type": "text",
                 "videoLink": null,
@@ -2012,7 +2012,7 @@
                 ]
             },
             {
-                "number": 65,
+                "index": 65,
                 "text": "Přestávku v řízení může řidič trávit:",
                 "type": "text",
                 "videoLink": null,
@@ -2033,7 +2033,7 @@
                 ]
             },
             {
-                "number": 66,
+                "index": 66,
                 "text": "Přestávky v řízení vozidla:",
                 "type": "text",
                 "videoLink": null,
@@ -2054,7 +2054,7 @@
                 ]
             },
             {
-                "number": 67,
+                "index": 67,
                 "text": "V pracovním režimu podle Nařízení č. 561/2006 smí být přestávka v řízení v trvání nejméně 45 minut nahrazena:",
                 "type": "text",
                 "videoLink": null,
@@ -2075,7 +2075,7 @@
                 ]
             },
             {
-                "number": 68,
+                "index": 68,
                 "text": "Doba odpočinku podle dohody AETR smí být zkrácena na:",
                 "type": "text",
                 "videoLink": null,
@@ -2096,7 +2096,7 @@
                 ]
             },
             {
-                "number": 69,
+                "index": 69,
                 "text": "Doba odpočinku podle dohody AETR:",
                 "type": "text",
                 "videoLink": null,
@@ -2117,7 +2117,7 @@
                 ]
             },
             {
-                "number": 70,
+                "index": 70,
                 "text": "Doba odpočinku podle dohody AETR:",
                 "type": "text",
                 "videoLink": null,
@@ -2138,7 +2138,7 @@
                 ]
             },
             {
-                "number": 71,
+                "index": 71,
                 "text": "Nařízení č. 561/2006 se nevztahuje na silniční dopravu:",
                 "type": "text",
                 "videoLink": null,
@@ -2159,7 +2159,7 @@
                 ]
             },
             {
-                "number": 72,
+                "index": 72,
                 "text": "Doba řízení:",
                 "type": "text",
                 "videoLink": null,
@@ -2180,7 +2180,7 @@
                 ]
             },
             {
-                "number": 73,
+                "index": 73,
                 "text": "Řidič smí být držitelem:",
                 "type": "text",
                 "videoLink": null,
@@ -2201,7 +2201,7 @@
                 ]
             },
             {
-                "number": 74,
+                "index": 74,
                 "text": "Cestující s omezenou schopností pohybu a orientace:",
                 "type": "text",
                 "videoLink": null,
@@ -2222,7 +2222,7 @@
                 ]
             },
             {
-                "number": 75,
+                "index": 75,
                 "text": "Cestujícím s omezenou schopností pohybu a orientace:",
                 "type": "text",
                 "videoLink": null,
@@ -2243,7 +2243,7 @@
                 ]
             },
             {
-                "number": 76,
+                "index": 76,
                 "text": "Za porušení přepravních podmínek lze považovat situaci, kdy cestující při přepravě:",
                 "type": "text",
                 "videoLink": null,
@@ -2264,7 +2264,7 @@
                 ]
             },
             {
-                "number": 77,
+                "index": 77,
                 "text": "Věc, která nesmí být zavazadlem nebo obsahem zavazadla:",
                 "type": "text",
                 "videoLink": null,
@@ -2285,7 +2285,7 @@
                 ]
             },
             {
-                "number": 78,
+                "index": 78,
                 "text": "Obsahem zavazadla podle přepravního řádu může být:",
                 "type": "text",
                 "videoLink": null,
@@ -2306,7 +2306,7 @@
                 ]
             },
             {
-                "number": 79,
+                "index": 79,
                 "text": "Obsahem zavazadla podle přepravního řádu může být:",
                 "type": "text",
                 "videoLink": null,
@@ -2327,7 +2327,7 @@
                 ]
             },
             {
-                "number": 80,
+                "index": 80,
                 "text": "Cestující může vzít s sebou do vozidla:",
                 "type": "text",
                 "videoLink": null,
@@ -2348,7 +2348,7 @@
                 ]
             },
             {
-                "number": 81,
+                "index": 81,
                 "text": "Z přepravy nelze vyloučit:",
                 "type": "text",
                 "videoLink": null,
@@ -2369,7 +2369,7 @@
                 ]
             },
             {
-                "number": 82,
+                "index": 82,
                 "text": "Cestovní zavazadlo je povinen předepsaným způsobem označit:",
                 "type": "text",
                 "videoLink": null,
@@ -2390,7 +2390,7 @@
                 ]
             },
             {
-                "number": 83,
+                "index": 83,
                 "text": "Cestovní zavazadlo musí být cestujícím označeno:",
                 "type": "text",
                 "videoLink": null,
@@ -2411,7 +2411,7 @@
                 ]
             },
             {
-                "number": 84,
+                "index": 84,
                 "text": "Živá zvířata se jako cestovní zavazadlo:",
                 "type": "text",
                 "videoLink": null,
@@ -2432,7 +2432,7 @@
                 ]
             },
             {
-                "number": 85,
+                "index": 85,
                 "text": "Cestující ve veřejné silniční osobní dopravě má právo na vrácení jízdného:",
                 "type": "text",
                 "videoLink": null,
@@ -2453,7 +2453,7 @@
                 ]
             },
             {
-                "number": 86,
+                "index": 86,
                 "text": "V městské hromadné dopravě se jízdné za jednotlivou jízdu:",
                 "type": "text",
                 "videoLink": null,
@@ -2474,7 +2474,7 @@
                 ]
             },
             {
-                "number": 87,
+                "index": 87,
                 "text": "Pokud nebyl cestující ve veřejné silniční dopravě přepraven včas:",
                 "type": "text",
                 "videoLink": null,
@@ -2495,7 +2495,7 @@
                 ]
             },
             {
-                "number": 88,
+                "index": 88,
                 "text": "Cestující, který byl vyloučen z přepravy pověřenou osobou:",
                 "type": "text",
                 "videoLink": null,
@@ -2516,7 +2516,7 @@
                 ]
             },
             {
-                "number": 89,
+                "index": 89,
                 "text": "Pro dobu řízení se pojmem \"týden\" rozumí doba:",
                 "type": "text",
                 "videoLink": null,
@@ -2537,7 +2537,7 @@
                 ]
             },
             {
-                "number": 90,
+                "index": 90,
                 "text": "Pojem \"Pracovní pohotovost\" znamená:",
                 "type": "text",
                 "videoLink": null,
@@ -2558,7 +2558,7 @@
                 ]
             },
             {
-                "number": 91,
+                "index": 91,
                 "text": "Povinnost zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., se nevztahuje na řidiče:",
                 "type": "text",
                 "videoLink": null,
@@ -2579,7 +2579,7 @@
                 ]
             },
             {
-                "number": 92,
+                "index": 92,
                 "text": "Povinnost zdokonalování odborné způsobilosti řidiče podle zákona č. 247/2000 Sb., se nevztahuje na řidiče",
                 "type": "text",
                 "videoLink": null,
@@ -2600,7 +2600,7 @@
                 ]
             },
             {
-                "number": 93,
+                "index": 93,
                 "text": "Výuku a výcvik v rámci zdokonalování odborné způsobilosti řidiče podle zákona č. 247/2000 Sb., může provádět",
                 "type": "text",
                 "videoLink": null,
@@ -2621,7 +2621,7 @@
                 ]
             },
             {
-                "number": 94,
+                "index": 94,
                 "text": "Akreditaci pro zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., uděluje:",
                 "type": "text",
                 "videoLink": null,
@@ -2642,7 +2642,7 @@
                 ]
             },
             {
-                "number": 95,
+                "index": 95,
                 "text": "Vstupní školení při zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., se provádí:",
                 "type": "text",
                 "videoLink": null,
@@ -2663,7 +2663,7 @@
                 ]
             },
             {
-                "number": 96,
+                "index": 96,
                 "text": "Povinnost nesmět ohrozit a nesmět omezit se vztahuje",
                 "type": "text",
                 "videoLink": null,
@@ -2684,7 +2684,7 @@
                 ]
             },
             {
-                "number": 97,
+                "index": 97,
                 "text": "Kolonou vozidel se rozumí:",
                 "type": "text",
                 "videoLink": null,
@@ -2705,7 +2705,7 @@
                 ]
             },
             {
-                "number": 98,
+                "index": 98,
                 "text": "Na výzvu policisty je řidič povinen podrobit vozidlo kontrole technického stavu vozidla. Zjistí-li se při této kontrole vážná nebo nebezpečná závada",
                 "type": "text",
                 "videoLink": null,
@@ -2729,12 +2729,12 @@
     },
     {
         "link": "http://etesty2.mdcr.cz/Test/TestPractise/28",
-        "number": 2,
+        "index": 2,
         "title": "Bezpečnost provozu a ekologický provoz vozidla",
         "questionCount": 35,
         "questions": [
             {
-                "number": 1,
+                "index": 1,
                 "text": "Jízdní odpor stoupá s vrstvou vody na vozovce s dopadem na spotřebu vozidla až o:",
                 "type": "text",
                 "videoLink": null,
@@ -2755,7 +2755,7 @@
                 ]
             },
             {
-                "number": 2,
+                "index": 2,
                 "text": "Stanice technické kontroly, při pravidelné technické prohlídce, může:",
                 "type": "text",
                 "videoLink": null,
@@ -2776,7 +2776,7 @@
                 ]
             },
             {
-                "number": 3,
+                "index": 3,
                 "text": "Silniční vozidlo je technicky způsobilé k provozu na pozemních komunikacích pokud:",
                 "type": "text",
                 "videoLink": null,
@@ -2797,7 +2797,7 @@
                 ]
             },
             {
-                "number": 4,
+                "index": 4,
                 "text": "Pokud provozovatel silničního vozidla přistaví silniční vozidlo s odstraněnou nebezpečnou závadou ke kontrole technické způsobilosti motorového vozidla do 30 dnů od zjištění závady, provede stanice technické kontroly:",
                 "type": "text",
                 "videoLink": null,
@@ -2818,7 +2818,7 @@
                 ]
             },
             {
-                "number": 5,
+                "index": 5,
                 "text": "Co může vést ke smyku vozidla při průjezdu zatáčkami?",
                 "type": "text",
                 "videoLink": null,
@@ -2839,7 +2839,7 @@
                 ]
             },
             {
-                "number": 6,
+                "index": 6,
                 "text": "Pokud je vozidlo naloženo:",
                 "type": "text",
                 "videoLink": null,
@@ -2860,7 +2860,7 @@
                 ]
             },
             {
-                "number": 7,
+                "index": 7,
                 "text": "Odstředivá síla působící na náklad:",
                 "type": "text",
                 "videoLink": null,
@@ -2881,7 +2881,7 @@
                 ]
             },
             {
-                "number": 8,
+                "index": 8,
                 "text": "Při přepravě kapalin v cisterně:",
                 "type": "text",
                 "videoLink": null,
@@ -2902,7 +2902,7 @@
                 ]
             },
             {
-                "number": 9,
+                "index": 9,
                 "text": "Pokud náklad přesahuje obrys vozidla:",
                 "type": "text",
                 "videoLink": null,
@@ -2923,7 +2923,7 @@
                 ]
             },
             {
-                "number": 10,
+                "index": 10,
                 "text": "Při přepravě živých zvířat:",
                 "type": "text",
                 "videoLink": null,
@@ -2944,7 +2944,7 @@
                 ]
             },
             {
-                "number": 11,
+                "index": 11,
                 "text": "Jestliže je nutné vystoupit na ložný prostor vozidla nebo z něho sestoupit, musí se použít:",
                 "type": "text",
                 "videoLink": null,
@@ -2965,7 +2965,7 @@
                 ]
             },
             {
-                "number": 12,
+                "index": 12,
                 "text": "V hospodárném rozsahu otáček je nejlépe udržováno vozidlo:",
                 "type": "text",
                 "videoLink": null,
@@ -2986,7 +2986,7 @@
                 ]
             },
             {
-                "number": 13,
+                "index": 13,
                 "text": "Ztrátový výkon vozidla vybaveného automatickou převodovkou je daný:",
                 "type": "text",
                 "videoLink": null,
@@ -3007,7 +3007,7 @@
                 ]
             },
             {
-                "number": 14,
+                "index": 14,
                 "text": "U synchronizovaných převodovek:",
                 "type": "text",
                 "videoLink": null,
@@ -3028,7 +3028,7 @@
                 ]
             },
             {
-                "number": 15,
+                "index": 15,
                 "text": "Nadměrnému a zbytečnému opotřebení vypínacího ložiska spojky, řadících objímek a kamenů v převodovce zabráníme:",
                 "type": "text",
                 "videoLink": null,
@@ -3049,7 +3049,7 @@
                 ]
             },
             {
-                "number": 16,
+                "index": 16,
                 "text": "Hospodárný provoz vozidla se vznětovým motorem zajistíme:",
                 "type": "text",
                 "videoLink": null,
@@ -3070,7 +3070,7 @@
                 ]
             },
             {
-                "number": 17,
+                "index": 17,
                 "text": "Při jízdě do stoupání, předjíždění a zařazení se do proudu vozidel využíváme:",
                 "type": "text",
                 "videoLink": null,
@@ -3091,7 +3091,7 @@
                 ]
             },
             {
-                "number": 18,
+                "index": 18,
                 "text": "Při jízdě vozidlem vybaveným automatickou převodovkou řadíme ručně:",
                 "type": "text",
                 "videoLink": null,
@@ -3112,7 +3112,7 @@
                 ]
             },
             {
-                "number": 19,
+                "index": 19,
                 "text": "Styl hospodárné jízdy se dosáhne jízdou:",
                 "type": "text",
                 "videoLink": null,
@@ -3133,7 +3133,7 @@
                 ]
             },
             {
-                "number": 20,
+                "index": 20,
                 "text": "Zapojení vozidel do jízdních souprav, (s výjimkou tažení přívěsů kategorií O1 a O2 s nájezdovou brzdou) s ohledem na ABS, není možné v kombinaci:",
                 "type": "text",
                 "videoLink": null,
@@ -3154,7 +3154,7 @@
                 ]
             },
             {
-                "number": 21,
+                "index": 21,
                 "text": "Při brzdění vzniká:",
                 "type": "text",
                 "videoLink": null,
@@ -3175,7 +3175,7 @@
                 ]
             },
             {
-                "number": 22,
+                "index": 22,
                 "text": "Jakou informaci musí podle Dohody Interbus obsahovat jízdní list Interbus?",
                 "type": "text",
                 "videoLink": null,
@@ -3196,7 +3196,7 @@
                 ]
             },
             {
-                "number": 23,
+                "index": 23,
                 "text": "Čeho se týká Dohoda Interbus?",
                 "type": "text",
                 "videoLink": null,
@@ -3217,7 +3217,7 @@
                 ]
             },
             {
-                "number": 24,
+                "index": 24,
                 "text": "Má cestující v pravidelné autobusové dopravě právo na přepravu cestovního zavazadla a domácích zvířat tím stejným autobusem?",
                 "type": "text",
                 "videoLink": null,
@@ -3238,7 +3238,7 @@
                 ]
             },
             {
-                "number": 25,
+                "index": 25,
                 "text": "U sklápěcích vozidel:",
                 "type": "text",
                 "videoLink": null,
@@ -3259,7 +3259,7 @@
                 ]
             },
             {
-                "number": 26,
+                "index": 26,
                 "text": "Jaké zajišťovací prostředky používáme?",
                 "type": "text",
                 "videoLink": null,
@@ -3280,7 +3280,7 @@
                 ]
             },
             {
-                "number": 27,
+                "index": 27,
                 "text": "Jaké druhy dopravních a přepravních prostředků je vhodné použít pro přepravu potravin podléhajících zkáze?",
                 "type": "text",
                 "videoLink": null,
@@ -3301,7 +3301,7 @@
                 ]
             },
             {
-                "number": 28,
+                "index": 28,
                 "text": "Co je základní povinností osádky vozidla před započetím přepravy nebezpečných věcí?",
                 "type": "text",
                 "videoLink": null,
@@ -3322,7 +3322,7 @@
                 ]
             },
             {
-                "number": 29,
+                "index": 29,
                 "text": "Co se zařazuje také mezi nebezpečné věci?",
                 "type": "text",
                 "videoLink": null,
@@ -3343,7 +3343,7 @@
                 ]
             },
             {
-                "number": 30,
+                "index": 30,
                 "text": "Kdo zodpovídá za označení přepravních obalů při přepravě nebezpečných věcí silniční dopravou?",
                 "type": "text",
                 "videoLink": null,
@@ -3364,7 +3364,7 @@
                 ]
             },
             {
-                "number": 31,
+                "index": 31,
                 "text": "Pokud materiál umístěný ve více vrstvách zajišťujeme proti pohybu pomocí vrchního vázání, je potřebné zkontrolovat:",
                 "type": "text",
                 "videoLink": null,
@@ -3385,7 +3385,7 @@
                 ]
             },
             {
-                "number": 32,
+                "index": 32,
                 "text": "Může řidič vykázat cestující z prostoru u předních dveří z důvodu bezpečného výhledu ?",
                 "type": "text",
                 "videoLink": null,
@@ -3406,7 +3406,7 @@
                 ]
             },
             {
-                "number": 33,
+                "index": 33,
                 "text": "Za spoluzavazadlo, které si cestující bere do kabiny pro cestující, odpovídá:",
                 "type": "text",
                 "videoLink": null,
@@ -3427,7 +3427,7 @@
                 ]
             },
             {
-                "number": 34,
+                "index": 34,
                 "text": "Obsahem zavazadla, které si cestující bere do vozidla ve veřejné silniční osobní dopravě, může být:",
                 "type": "text",
                 "videoLink": null,
@@ -3448,7 +3448,7 @@
                 ]
             },
             {
-                "number": 35,
+                "index": 35,
                 "text": "Jestliže chceme snížit riziko smyku nákladu, měli bychom:",
                 "type": "text",
                 "videoLink": null,
@@ -3472,12 +3472,12 @@
     },
     {
         "link": "http://etesty2.mdcr.cz/Test/TestPractise/29",
-        "number": 3,
+        "index": 3,
         "title": "Poskytování služeb a logistiky",
         "questionCount": 32,
         "questions": [
             {
-                "number": 1,
+                "index": 1,
                 "text": "Metoda \"Just in time\" je metodou pro:",
                 "type": "text",
                 "videoLink": null,
@@ -3498,7 +3498,7 @@
                 ]
             },
             {
-                "number": 2,
+                "index": 2,
                 "text": "Logistika v dopravě koordinuje:",
                 "type": "text",
                 "videoLink": null,
@@ -3519,7 +3519,7 @@
                 ]
             },
             {
-                "number": 3,
+                "index": 3,
                 "text": "Pozornost řidiče při řízení autobusu narušuje:",
                 "type": "text",
                 "videoLink": null,
@@ -3540,7 +3540,7 @@
                 ]
             },
             {
-                "number": 4,
+                "index": 4,
                 "text": "V nákladní dopravě přepravní smlouva vzniká:",
                 "type": "text",
                 "videoLink": null,
@@ -3561,7 +3561,7 @@
                 ]
             },
             {
-                "number": 5,
+                "index": 5,
                 "text": "Jestliže ve veřejné silniční osobní dopravě nebyl cestující přepraven včas:",
                 "type": "text",
                 "videoLink": null,
@@ -3582,7 +3582,7 @@
                 ]
             },
             {
-                "number": 6,
+                "index": 6,
                 "text": "Cestující ve veřejné silniční osobní dopravě, u něhož nebyla provedena přeprava z důvodu na straně dopravce:",
                 "type": "text",
                 "videoLink": null,
@@ -3603,7 +3603,7 @@
                 ]
             },
             {
-                "number": 7,
+                "index": 7,
                 "text": "Cestující ve veřejné silniční osobní dopravě, který byl vyloučen z přepravy pověřenou osobou:",
                 "type": "text",
                 "videoLink": null,
@@ -3624,7 +3624,7 @@
                 ]
             },
             {
-                "number": 8,
+                "index": 8,
                 "text": "Naklápění nízkopodlažního autobusu v zastávce provádí řidič:",
                 "type": "text",
                 "videoLink": null,
@@ -3645,7 +3645,7 @@
                 ]
             },
             {
-                "number": 9,
+                "index": 9,
                 "text": "Jaké oprávnění má řidič v pravidelné autobusové dopravě v případě, že přepravované domácí zvíře cestujícího ohrožuje zdraví ostatních cestujících?",
                 "type": "text",
                 "videoLink": null,
@@ -3666,7 +3666,7 @@
                 ]
             },
             {
-                "number": 10,
+                "index": 10,
                 "text": "Může řidič vyloučit z přepravy osobu, která svým chováním narušuje bezpečnou, klidnou a pohodlnou přepravu?",
                 "type": "text",
                 "videoLink": null,
@@ -3687,7 +3687,7 @@
                 ]
             },
             {
-                "number": 11,
+                "index": 11,
                 "text": "Nejvýraznější a základní charakteristikou logistiky je:",
                 "type": "text",
                 "videoLink": null,
@@ -3708,7 +3708,7 @@
                 ]
             },
             {
-                "number": 12,
+                "index": 12,
                 "text": "Logistika se nezabývá:",
                 "type": "text",
                 "videoLink": null,
@@ -3729,7 +3729,7 @@
                 ]
             },
             {
-                "number": 13,
+                "index": 13,
                 "text": "Typickým rysem logistiky je, že:",
                 "type": "text",
                 "videoLink": null,
@@ -3750,7 +3750,7 @@
                 ]
             },
             {
-                "number": 14,
+                "index": 14,
                 "text": "Pojem „logistika“ v ekonomických procesech označuje:",
                 "type": "text",
                 "videoLink": null,
@@ -3771,7 +3771,7 @@
                 ]
             },
             {
-                "number": 15,
+                "index": 15,
                 "text": "Zaměstnavatel je povinen zajistit, aby řidič:",
                 "type": "text",
                 "videoLink": null,
@@ -3792,7 +3792,7 @@
                 ]
             },
             {
-                "number": 16,
+                "index": 16,
                 "text": "Skleněné přepážky kabiny řidiče autobusu, které primárně ochraňují řidiče před nepříznivými vlivy z okolí, mohou také:",
                 "type": "text",
                 "videoLink": null,
@@ -3813,7 +3813,7 @@
                 ]
             },
             {
-                "number": 17,
+                "index": 17,
                 "text": "Přepravní smlouva mezi cestujícím ve veřejné silniční osobní dopravě a dopravcem je uzavřena",
                 "type": "text",
                 "videoLink": null,
@@ -3834,7 +3834,7 @@
                 ]
             },
             {
-                "number": 18,
+                "index": 18,
                 "text": "Přeprava zavazadel je součástí:",
                 "type": "text",
                 "videoLink": null,
@@ -3855,7 +3855,7 @@
                 ]
             },
             {
-                "number": 19,
+                "index": 19,
                 "text": "Jednou z charakteristických vlastností logistiky je:",
                 "type": "text",
                 "videoLink": null,
@@ -3876,7 +3876,7 @@
                 ]
             },
             {
-                "number": 20,
+                "index": 20,
                 "text": "Mezi komponenty oběhového procesu nepatří:",
                 "type": "text",
                 "videoLink": null,
@@ -3897,7 +3897,7 @@
                 ]
             },
             {
-                "number": 21,
+                "index": 21,
                 "text": "Pro konkurenceschopnost na trhu je podmínkou:",
                 "type": "text",
                 "videoLink": null,
@@ -3918,7 +3918,7 @@
                 ]
             },
             {
-                "number": 22,
+                "index": 22,
                 "text": "Co je logistika?",
                 "type": "text",
                 "videoLink": null,
@@ -3939,7 +3939,7 @@
                 ]
             },
             {
-                "number": 23,
+                "index": 23,
                 "text": "Co je doprava Just in Time?",
                 "type": "text",
                 "videoLink": null,
@@ -3960,7 +3960,7 @@
                 ]
             },
             {
-                "number": 24,
+                "index": 24,
                 "text": "Jaká je důležitá povinnost dopravce (řidiče) v systému Just in Time?",
                 "type": "text",
                 "videoLink": null,
@@ -3981,7 +3981,7 @@
                 ]
             },
             {
-                "number": 25,
+                "index": 25,
                 "text": "Co je kanbanová karta?",
                 "type": "text",
                 "videoLink": null,
@@ -4002,7 +4002,7 @@
                 ]
             },
             {
-                "number": 26,
+                "index": 26,
                 "text": "Co je logistické distribuční centrum?",
                 "type": "text",
                 "videoLink": null,
@@ -4023,7 +4023,7 @@
                 ]
             },
             {
-                "number": 27,
+                "index": 27,
                 "text": "Co je Systém elektronické výměny dat (EDI)?",
                 "type": "text",
                 "videoLink": null,
@@ -4044,7 +4044,7 @@
                 ]
             },
             {
-                "number": 28,
+                "index": 28,
                 "text": "Co je vychystávací okno?",
                 "type": "text",
                 "videoLink": null,
@@ -4065,7 +4065,7 @@
                 ]
             },
             {
-                "number": 29,
+                "index": 29,
                 "text": "Co je časové okno?",
                 "type": "text",
                 "videoLink": null,
@@ -4086,7 +4086,7 @@
                 ]
             },
             {
-                "number": 30,
+                "index": 30,
                 "text": "Co je kombinovaná doprava?",
                 "type": "text",
                 "videoLink": null,
@@ -4107,7 +4107,7 @@
                 ]
             },
             {
-                "number": 31,
+                "index": 31,
                 "text": "Z jakého dokladu řidič při přepravě v systému Just in Time zjistí kam a kdy má přistavit vozidlo k nakládce a vykládce?",
                 "type": "text",
                 "videoLink": null,
@@ -4128,7 +4128,7 @@
                 ]
             },
             {
-                "number": 32,
+                "index": 32,
                 "text": "Cílem logistiky je:",
                 "type": "text",
                 "videoLink": null,
@@ -4152,12 +4152,12 @@
     },
     {
         "link": "http://etesty2.mdcr.cz/Test/TestPractise/30",
-        "number": 4,
+        "index": 4,
         "title": "Hospodářské prostředí a organizace dopravního trhu",
         "questionCount": 20,
         "questions": [
             {
-                "number": 1,
+                "index": 1,
                 "text": "K provozování silniční motorové dopravy jako předmětu podnikání je zapotřebí:",
                 "type": "text",
                 "videoLink": null,
@@ -4178,7 +4178,7 @@
                 ]
             },
             {
-                "number": 2,
+                "index": 2,
                 "text": "Každý, kdo provozuje silniční motorovou dopravu musí splňovat po celou dobu trvání oprávnění podmínku:",
                 "type": "text",
                 "videoLink": null,
@@ -4199,7 +4199,7 @@
                 ]
             },
             {
-                "number": 3,
+                "index": 3,
                 "text": "Do přepravního procesu je možno zařadit:",
                 "type": "text",
                 "videoLink": null,
@@ -4220,7 +4220,7 @@
                 ]
             },
             {
-                "number": 4,
+                "index": 4,
                 "text": "K přepravnímu procesu u nákladní dopravy nepatří:",
                 "type": "text",
                 "videoLink": null,
@@ -4241,7 +4241,7 @@
                 ]
             },
             {
-                "number": 5,
+                "index": 5,
                 "text": "Za mimořádně vysokých teplot jsou ochranné nápoje poskytovány:",
                 "type": "text",
                 "videoLink": null,
@@ -4262,7 +4262,7 @@
                 ]
             },
             {
-                "number": 6,
+                "index": 6,
                 "text": "Za mimořádně chladný den je považován den s teplotu nižší než je:",
                 "type": "text",
                 "videoLink": null,
@@ -4283,7 +4283,7 @@
                 ]
             },
             {
-                "number": 7,
+                "index": 7,
                 "text": "Při ochraně zdraví se počítá s mimořádně teplým dnem pokud teplota venkovního vzduchu přesáhne:",
                 "type": "text",
                 "videoLink": null,
@@ -4304,7 +4304,7 @@
                 ]
             },
             {
-                "number": 8,
+                "index": 8,
                 "text": "Periodická preventivní prohlídka zaměstnanců je:",
                 "type": "text",
                 "videoLink": null,
@@ -4325,7 +4325,7 @@
                 ]
             },
             {
-                "number": 9,
+                "index": 9,
                 "text": "Po dobu výkonu pracovních směn, kdy budou teploty mimořádně vysoké a teplota vzduchu v kabinách vozidel se bude blížit 50 stupňům C má pracovník nárok:",
                 "type": "text",
                 "videoLink": null,
@@ -4346,7 +4346,7 @@
                 ]
             },
             {
-                "number": 10,
+                "index": 10,
                 "text": "Prostoj při vykládce:",
                 "type": "text",
                 "videoLink": null,
@@ -4367,7 +4367,7 @@
                 ]
             },
             {
-                "number": 11,
+                "index": 11,
                 "text": "Přepravním procesem se rozumí:",
                 "type": "text",
                 "videoLink": null,
@@ -4388,7 +4388,7 @@
                 ]
             },
             {
-                "number": 12,
+                "index": 12,
                 "text": "Reklama na vozidle:",
                 "type": "text",
                 "videoLink": null,
@@ -4409,7 +4409,7 @@
                 ]
             },
             {
-                "number": 13,
+                "index": 13,
                 "text": "Dopravní terminál je:",
                 "type": "text",
                 "videoLink": null,
@@ -4430,7 +4430,7 @@
                 ]
             },
             {
-                "number": 14,
+                "index": 14,
                 "text": "Dopravní terminál:",
                 "type": "text",
                 "videoLink": null,
@@ -4451,7 +4451,7 @@
                 ]
             },
             {
-                "number": 15,
+                "index": 15,
                 "text": "Podle charakteru dopravního prostředku a dopravní cesty dělíme dopravu na:",
                 "type": "text",
                 "videoLink": null,
@@ -4472,7 +4472,7 @@
                 ]
             },
             {
-                "number": 16,
+                "index": 16,
                 "text": "Reklama na vozidle:",
                 "type": "text",
                 "videoLink": null,
@@ -4493,7 +4493,7 @@
                 ]
             },
             {
-                "number": 17,
+                "index": 17,
                 "text": "Ten, kdo objednává přepravu, je:",
                 "type": "text",
                 "videoLink": null,
@@ -4514,7 +4514,7 @@
                 ]
             },
             {
-                "number": 18,
+                "index": 18,
                 "text": "Řidič vozidla:",
                 "type": "text",
                 "videoLink": null,
@@ -4535,7 +4535,7 @@
                 ]
             },
             {
-                "number": 19,
+                "index": 19,
                 "text": "Obecná ustanovení o pracovní době jsou zakotvena:",
                 "type": "text",
                 "videoLink": null,
@@ -4556,7 +4556,7 @@
                 ]
             },
             {
-                "number": 20,
+                "index": 20,
                 "text": "Na pozitivní obraz dopravní společnosti působí mimo jiné",
                 "type": "text",
                 "videoLink": null,
@@ -4580,12 +4580,12 @@
     },
     {
         "link": "http://etesty2.mdcr.cz/Test/TestPractise/31",
-        "number": 5,
+        "index": 5,
         "title": "Sociálně-právní prostředí v silniční dopravě",
         "questionCount": 24,
         "questions": [
             {
-                "number": 1,
+                "index": 1,
                 "text": "Pracovní týden pro stanovení režimu práce v mezinárodní silniční dopravě:",
                 "type": "text",
                 "videoLink": null,
@@ -4606,7 +4606,7 @@
                 ]
             },
             {
-                "number": 2,
+                "index": 2,
                 "text": "Jakou platnost má karta řidiče do digitálního tachografu?",
                 "type": "text",
                 "videoLink": null,
@@ -4627,7 +4627,7 @@
                 ]
             },
             {
-                "number": 3,
+                "index": 3,
                 "text": "Jaká je minimální doba přestávky v dálkové vnitrostátní silniční dopravě, kterou musí řidič čerpat po nepřetržitém řízení vozidla 4,5 hodiny, jestliže nenastupuje denní čas odpočinku nebo týdenní čas odpočinku?",
                 "type": "text",
                 "videoLink": null,
@@ -4648,7 +4648,7 @@
                 ]
             },
             {
-                "number": 4,
+                "index": 4,
                 "text": "Jaká je maximální nepřetržitá doba řízení vozidla ve vnitrostátní silniční dopravě s vozidlem s celkovou hmotností vyšší než 3,5 tuny?",
                 "type": "text",
                 "videoLink": null,
@@ -4669,7 +4669,7 @@
                 ]
             },
             {
-                "number": 5,
+                "index": 5,
                 "text": "Plovoucí den představuje úsek:",
                 "type": "text",
                 "videoLink": null,
@@ -4690,7 +4690,7 @@
                 ]
             },
             {
-                "number": 6,
+                "index": 6,
                 "text": "Pokud osádka vozidla doprovází vozidlo během dopravy na trajektu, tak se jí tato doba započítává do:",
                 "type": "text",
                 "videoLink": null,
@@ -4711,7 +4711,7 @@
                 ]
             },
             {
-                "number": 7,
+                "index": 7,
                 "text": "Jiné práce, jako je doba čekání, úklid vozidla a další práce, se započítávají do:",
                 "type": "text",
                 "videoLink": null,
@@ -4732,7 +4732,7 @@
                 ]
             },
             {
-                "number": 8,
+                "index": 8,
                 "text": "Přestávka na jídlo a oddech se musí čerpat:",
                 "type": "text",
                 "videoLink": null,
@@ -4753,7 +4753,7 @@
                 ]
             },
             {
-                "number": 9,
+                "index": 9,
                 "text": "Přeprava sdružovaných kusových zásilek z domu do domu podle přepravního řádu a založená na sdružování ve sběrných střediscích je:",
                 "type": "text",
                 "videoLink": null,
@@ -4774,7 +4774,7 @@
                 ]
             },
             {
-                "number": 10,
+                "index": 10,
                 "text": "Silniční celovozová přeprava musí splňovat tyto podmínky:",
                 "type": "text",
                 "videoLink": null,
@@ -4795,7 +4795,7 @@
                 ]
             },
             {
-                "number": 11,
+                "index": 11,
                 "text": "Tarify si určuje:",
                 "type": "text",
                 "videoLink": null,
@@ -4816,7 +4816,7 @@
                 ]
             },
             {
-                "number": 12,
+                "index": 12,
                 "text": "Tarify silniční dopravy závisejí na:",
                 "type": "text",
                 "videoLink": null,
@@ -4837,7 +4837,7 @@
                 ]
             },
             {
-                "number": 13,
+                "index": 13,
                 "text": "Řidič může trávit denní čas odpočinku:",
                 "type": "text",
                 "videoLink": null,
@@ -4858,7 +4858,7 @@
                 ]
             },
             {
-                "number": 14,
+                "index": 14,
                 "text": "Nákladní list CMR je tzv. deklarativní doklad, což znamená, že:",
                 "type": "text",
                 "videoLink": null,
@@ -4879,7 +4879,7 @@
                 ]
             },
             {
-                "number": 15,
+                "index": 15,
                 "text": "Co označuje zkratka ADR?",
                 "type": "text",
                 "videoLink": null,
@@ -4900,7 +4900,7 @@
                 ]
             },
             {
-                "number": 16,
+                "index": 16,
                 "text": "„Dohoda o mezinárodních přepravách zkazitelných potravin a specializovaných prostředcích určených pro tyto přepravy“ má  zkratku:",
                 "type": "text",
                 "videoLink": null,
@@ -4921,7 +4921,7 @@
                 ]
             },
             {
-                "number": 17,
+                "index": 17,
                 "text": "„Evropská dohoda o mezinárodní silniční přepravě nebezpečných věcí“ se označuje:",
                 "type": "text",
                 "videoLink": null,
@@ -4942,7 +4942,7 @@
                 ]
             },
             {
-                "number": 18,
+                "index": 18,
                 "text": "\"Dohoda o přepravní smlouvě v mezinárodní silniční dopravě“ má zkratku",
                 "type": "text",
                 "videoLink": null,
@@ -4963,7 +4963,7 @@
                 ]
             },
             {
-                "number": 19,
+                "index": 19,
                 "text": "Činnost řízení započala ve 22,00 hodin a následující den se přechází na letní čas. Kdy budete přestavovat na analogovém tachografu správný čas?",
                 "type": "text",
                 "videoLink": null,
@@ -4984,7 +4984,7 @@
                 ]
             },
             {
-                "number": 20,
+                "index": 20,
                 "text": "Údaje z karty digitálního tachografu je nutno stahovat po:",
                 "type": "text",
                 "videoLink": null,
@@ -5005,7 +5005,7 @@
                 ]
             },
             {
-                "number": 21,
+                "index": 21,
                 "text": "Při okružní jízdě se jedná o:",
                 "type": "text",
                 "videoLink": null,
@@ -5026,7 +5026,7 @@
                 ]
             },
             {
-                "number": 22,
+                "index": 22,
                 "text": "Jak budete postupovat, jestliže dojde k poruše záznamového zařízení (tachografu)?",
                 "type": "text",
                 "videoLink": null,
@@ -5047,7 +5047,7 @@
                 ]
             },
             {
-                "number": 23,
+                "index": 23,
                 "text": "Za osoby s omezenou schopností pohybu a orientace se dle přepravního řádu považují:",
                 "type": "text",
                 "videoLink": null,
@@ -5068,7 +5068,7 @@
                 ]
             },
             {
-                "number": 24,
+                "index": 24,
                 "text": "Během delší jízdy se řidič má stravovat:",
                 "type": "text",
                 "videoLink": null,
@@ -5092,12 +5092,12 @@
     },
     {
         "link": "http://etesty2.mdcr.cz/Test/TestPractise/32",
-        "number": 6,
+        "index": 6,
         "title": "Zdravotní rizika a jejich předcházení",
         "questionCount": 92,
         "questions": [
             {
-                "number": 1,
+                "index": 1,
                 "text": "V případě, že v důsledku dopravní nehody došlo k zranění osob, je řidič povinen:",
                 "type": "text",
                 "videoLink": null,
@@ -5118,7 +5118,7 @@
                 ]
             },
             {
-                "number": 2,
+                "index": 2,
                 "text": "Nejvhodnější první pomocí při mdlobě je:",
                 "type": "text",
                 "videoLink": null,
@@ -5139,7 +5139,7 @@
                 ]
             },
             {
-                "number": 3,
+                "index": 3,
                 "text": "Dýchací cesty uvolníme:",
                 "type": "text",
                 "videoLink": null,
@@ -5160,7 +5160,7 @@
                 ]
             },
             {
-                "number": 4,
+                "index": 4,
                 "text": "Je vhodné řídit automobil v době, kdy jste nemocní?",
                 "type": "text",
                 "videoLink": null,
@@ -5181,7 +5181,7 @@
                 ]
             },
             {
-                "number": 5,
+                "index": 5,
                 "text": "Užívání léků, které jsou označeny v příbalovém letáku jako nevhodné pro osoby, které vykonávají činnost se zvýšenou pozorností, ovlivňují u řidiče především :",
                 "type": "text",
                 "videoLink": null,
@@ -5202,7 +5202,7 @@
                 ]
             },
             {
-                "number": 6,
+                "index": 6,
                 "text": "Bezpečnostní přestávky a přestávky na jídlo a oddech se:",
                 "type": "text",
                 "videoLink": null,
@@ -5223,7 +5223,7 @@
                 ]
             },
             {
-                "number": 7,
+                "index": 7,
                 "text": "Mezinárodní číslo tísňové linky je:",
                 "type": "text",
                 "videoLink": null,
@@ -5244,7 +5244,7 @@
                 ]
             },
             {
-                "number": 8,
+                "index": 8,
                 "text": "Zraněnému člověku hrozí vždy:",
                 "type": "text",
                 "videoLink": null,
@@ -5265,7 +5265,7 @@
                 ]
             },
             {
-                "number": 9,
+                "index": 9,
                 "text": "Krvácení z nosu zastavíme:",
                 "type": "text",
                 "videoLink": null,
@@ -5286,7 +5286,7 @@
                 ]
             },
             {
-                "number": 10,
+                "index": 10,
                 "text": "Pacienta ve stavu bezvědomí poznáme podle:",
                 "type": "text",
                 "videoLink": null,
@@ -5307,7 +5307,7 @@
                 ]
             },
             {
-                "number": 11,
+                "index": 11,
                 "text": "U pacienta v bezvědomí jako první zkontrolujeme:",
                 "type": "text",
                 "videoLink": null,
@@ -5328,7 +5328,7 @@
                 ]
             },
             {
-                "number": 12,
+                "index": 12,
                 "text": "U dopravní nehody ošetřujeme zraněné v tomto pořadí:",
                 "type": "text",
                 "videoLink": null,
@@ -5349,7 +5349,7 @@
                 ]
             },
             {
-                "number": 13,
+                "index": 13,
                 "text": "Poskytnout první pomoc:",
                 "type": "text",
                 "videoLink": null,
@@ -5370,7 +5370,7 @@
                 ]
             },
             {
-                "number": 14,
+                "index": 14,
                 "text": "Při umělém dýchání z úst do úst:",
                 "type": "text",
                 "videoLink": null,
@@ -5391,7 +5391,7 @@
                 ]
             },
             {
-                "number": 15,
+                "index": 15,
                 "text": "Reakční dobu řidiče prodlužuje:",
                 "type": "text",
                 "videoLink": null,
@@ -5412,7 +5412,7 @@
                 ]
             },
             {
-                "number": 16,
+                "index": 16,
                 "text": "Při resuscitaci (oživování) je především důležité:",
                 "type": "text",
                 "videoLink": null,
@@ -5433,7 +5433,7 @@
                 ]
             },
             {
-                "number": 17,
+                "index": 17,
                 "text": "Při srdeční masáži musí postižený ležet:",
                 "type": "text",
                 "videoLink": null,
@@ -5454,7 +5454,7 @@
                 ]
             },
             {
-                "number": 18,
+                "index": 18,
                 "text": "Rychlost odbourávání alkoholu v krvi:",
                 "type": "text",
                 "videoLink": null,
@@ -5475,7 +5475,7 @@
                 ]
             },
             {
-                "number": 19,
+                "index": 19,
                 "text": "Cizí předmět v oku ošetříme:",
                 "type": "text",
                 "videoLink": null,
@@ -5496,7 +5496,7 @@
                 ]
             },
             {
-                "number": 20,
+                "index": 20,
                 "text": "Cizí předmět z rány:",
                 "type": "text",
                 "videoLink": null,
@@ -5517,7 +5517,7 @@
                 ]
             },
             {
-                "number": 21,
+                "index": 21,
                 "text": "Při příjezdu k místu nehody:",
                 "type": "text",
                 "videoLink": null,
@@ -5538,7 +5538,7 @@
                 ]
             },
             {
-                "number": 22,
+                "index": 22,
                 "text": "U pacienta v bezvědomí kontrolujeme do příjezdu ZZS:",
                 "type": "text",
                 "videoLink": null,
@@ -5559,7 +5559,7 @@
                 ]
             },
             {
-                "number": 23,
+                "index": 23,
                 "text": "Postižený se srdeční zástavou zemře bez pomoci:",
                 "type": "text",
                 "videoLink": null,
@@ -5580,7 +5580,7 @@
                 ]
             },
             {
-                "number": 24,
+                "index": 24,
                 "text": "Volání na tísňovou linku:",
                 "type": "text",
                 "videoLink": null,
@@ -5601,7 +5601,7 @@
                 ]
             },
             {
-                "number": 25,
+                "index": 25,
                 "text": "Zdravý člověk zareaguje na vzniklou situaci v dopravě za:",
                 "type": "text",
                 "videoLink": null,
@@ -5622,7 +5622,7 @@
                 ]
             },
             {
-                "number": 26,
+                "index": 26,
                 "text": "Člověku v bezvědomí nejvíce hrozí:",
                 "type": "text",
                 "videoLink": null,
@@ -5643,7 +5643,7 @@
                 ]
             },
             {
-                "number": 27,
+                "index": 27,
                 "text": "Rychlá reakce zraku je u řidiče nutná:",
                 "type": "text",
                 "videoLink": null,
@@ -5660,7 +5660,7 @@
                 ]
             },
             {
-                "number": 28,
+                "index": 28,
                 "text": "Při delší jízdě je největší nebezpečí usnutí řidiče:",
                 "type": "text",
                 "videoLink": null,
@@ -5681,7 +5681,7 @@
                 ]
             },
             {
-                "number": 29,
+                "index": 29,
                 "text": "Zraněnému motocyklistovi ochrannou přilbu:",
                 "type": "text",
                 "videoLink": null,
@@ -5702,7 +5702,7 @@
                 ]
             },
             {
-                "number": 30,
+                "index": 30,
                 "text": "Příznivý vliv na řidiče má poslech hudby:",
                 "type": "text",
                 "videoLink": null,
@@ -5723,7 +5723,7 @@
                 ]
             },
             {
-                "number": 31,
+                "index": 31,
                 "text": "Pokud se rozhodneme ponechat zraněného ve vozidle, je to proto, že:",
                 "type": "text",
                 "videoLink": null,
@@ -5744,7 +5744,7 @@
                 ]
             },
             {
-                "number": 32,
+                "index": 32,
                 "text": "Pozornost na dálnici snižuje:",
                 "type": "text",
                 "videoLink": null,
@@ -5765,7 +5765,7 @@
                 ]
             },
             {
-                "number": 33,
+                "index": 33,
                 "text": "Zraněného je potřeba vyprostit z vozidla:",
                 "type": "text",
                 "videoLink": null,
@@ -5786,7 +5786,7 @@
                 ]
             },
             {
-                "number": 34,
+                "index": 34,
                 "text": "Co je nejčastější příčinou krátkého usnutí řidiče při jízdě?",
                 "type": "text",
                 "videoLink": null,
@@ -5803,7 +5803,7 @@
                 ]
             },
             {
-                "number": 35,
+                "index": 35,
                 "text": "Ke vnitřním zraněním běžně dochází již při rychlosti nárazu:",
                 "type": "text",
                 "videoLink": null,
@@ -5824,7 +5824,7 @@
                 ]
             },
             {
-                "number": 36,
+                "index": 36,
                 "text": "Dojde-li k dopravní nehodě, je na prvním místě:",
                 "type": "text",
                 "videoLink": null,
@@ -5845,7 +5845,7 @@
                 ]
             },
             {
-                "number": 37,
+                "index": 37,
                 "text": "Při delší jízdě únavu nejlépe odstraníte:",
                 "type": "text",
                 "videoLink": null,
@@ -5866,7 +5866,7 @@
                 ]
             },
             {
-                "number": 38,
+                "index": 38,
                 "text": "Pomáhá káva k rychlejšímu odbourávání alkoholu z těla?",
                 "type": "text",
                 "videoLink": null,
@@ -5883,7 +5883,7 @@
                 ]
             },
             {
-                "number": 39,
+                "index": 39,
                 "text": "Po dobu delší jízdy se musí dodržovat pitný režim:",
                 "type": "text",
                 "videoLink": null,
@@ -5904,7 +5904,7 @@
                 ]
             },
             {
-                "number": 40,
+                "index": 40,
                 "text": "Na volné a široké silnici má řidič tendenci jet:",
                 "type": "text",
                 "videoLink": null,
@@ -5925,7 +5925,7 @@
                 ]
             },
             {
-                "number": 41,
+                "index": 41,
                 "text": "Může i banální onemocnění ovlivnit schopnost k řízení (např. bolest zubů, hlavy, zvýšená teplota)?",
                 "type": "text",
                 "videoLink": null,
@@ -5946,7 +5946,7 @@
                 ]
             },
             {
-                "number": 42,
+                "index": 42,
                 "text": "Co ovlivňuje způsobilost řidiče k řízení vozidla?",
                 "type": "text",
                 "videoLink": null,
@@ -5967,7 +5967,7 @@
                 ]
             },
             {
-                "number": 43,
+                "index": 43,
                 "text": "Telefonní číslo na tísňovou linku Hasičského záchranného sboru je:",
                 "type": "text",
                 "videoLink": null,
@@ -5988,7 +5988,7 @@
                 ]
             },
             {
-                "number": 44,
+                "index": 44,
                 "text": "Telefonní číslo na tísňovou linku Zdravotnické záchranné služby je:",
                 "type": "text",
                 "videoLink": null,
@@ -6009,7 +6009,7 @@
                 ]
             },
             {
-                "number": 45,
+                "index": 45,
                 "text": "Pokud jsme svědky mimořádné události s velkým počtem raněných, je nezbytné nejprve:",
                 "type": "text",
                 "videoLink": null,
@@ -6030,7 +6030,7 @@
                 ]
             },
             {
-                "number": 46,
+                "index": 46,
                 "text": "Standardní postup oživování (kardiopulmonální resuscitace) předepisuje střídání počtu stlačení hrudníku s umělými dechy v poměru:",
                 "type": "text",
                 "videoLink": null,
@@ -6051,7 +6051,7 @@
                 ]
             },
             {
-                "number": 47,
+                "index": 47,
                 "text": "Může zlomenina stehenní kosti způsobit život ohrožující krevní ztrátu?",
                 "type": "text",
                 "videoLink": null,
@@ -6072,7 +6072,7 @@
                 ]
             },
             {
-                "number": 48,
+                "index": 48,
                 "text": "Při snímání přilby musíme zejména:",
                 "type": "text",
                 "videoLink": null,
@@ -6093,7 +6093,7 @@
                 ]
             },
             {
-                "number": 49,
+                "index": 49,
                 "text": "Na jaký podnět zareaguje zdravý člověk rychleji?",
                 "type": "text",
                 "videoLink": null,
@@ -6114,7 +6114,7 @@
                 ]
             },
             {
-                "number": 50,
+                "index": 50,
                 "text": "Nepřímou masáž srdce provádí zachránce nejlépe:",
                 "type": "text",
                 "videoLink": null,
@@ -6135,7 +6135,7 @@
                 ]
             },
             {
-                "number": 51,
+                "index": 51,
                 "text": "Pokud se v zahraničí dostanete do tísňové situace, budete volat na mezinárodní telefonní číslo:",
                 "type": "text",
                 "videoLink": null,
@@ -6156,7 +6156,7 @@
                 ]
             },
             {
-                "number": 52,
+                "index": 52,
                 "text": "Pro řidiče je nejnáročnější soustředit pozornost na jízdu:",
                 "type": "text",
                 "videoLink": null,
@@ -6177,7 +6177,7 @@
                 ]
             },
             {
-                "number": 53,
+                "index": 53,
                 "text": "Oživování (resuscitaci) dítěte zahajujeme:",
                 "type": "text",
                 "videoLink": null,
@@ -6198,7 +6198,7 @@
                 ]
             },
             {
-                "number": 54,
+                "index": 54,
                 "text": "Frekvence srdeční masáže, u dospělé osoby, by měla být:",
                 "type": "text",
                 "videoLink": null,
@@ -6219,7 +6219,7 @@
                 ]
             },
             {
-                "number": 55,
+                "index": 55,
                 "text": "Člověku v bezvědomí nesmíme nikdy hlavu:",
                 "type": "text",
                 "videoLink": null,
@@ -6240,7 +6240,7 @@
                 ]
             },
             {
-                "number": 56,
+                "index": 56,
                 "text": "Zraněného, kterému se špatně dýchá, bychom neměli:",
                 "type": "text",
                 "videoLink": null,
@@ -6261,7 +6261,7 @@
                 ]
             },
             {
-                "number": 57,
+                "index": 57,
                 "text": "Oživování (resuscitaci) dospělého zahajujeme:",
                 "type": "text",
                 "videoLink": null,
@@ -6282,7 +6282,7 @@
                 ]
             },
             {
-                "number": 58,
+                "index": 58,
                 "text": "Masivní krvácení v oblasti krku:",
                 "type": "text",
                 "videoLink": null,
@@ -6303,7 +6303,7 @@
                 ]
             },
             {
-                "number": 59,
+                "index": 59,
                 "text": "Zastavení stříkajícího krvácení při poskytování první pomoci:",
                 "type": "text",
                 "videoLink": null,
@@ -6324,7 +6324,7 @@
                 ]
             },
             {
-                "number": 60,
+                "index": 60,
                 "text": "Pro záchranu postiženého náhlou zástavou srdeční činnosti je v prvních minutách nejdůležitější:",
                 "type": "text",
                 "videoLink": null,
@@ -6345,7 +6345,7 @@
                 ]
             },
             {
-                "number": 61,
+                "index": 61,
                 "text": "Pacienta v bezvědomí ukládáme do polohy na boku:",
                 "type": "text",
                 "videoLink": null,
@@ -6366,7 +6366,7 @@
                 ]
             },
             {
-                "number": 62,
+                "index": 62,
                 "text": "Pokud nevím, jak poskytnout první pomoc:",
                 "type": "text",
                 "videoLink": null,
@@ -6387,7 +6387,7 @@
                 ]
             },
             {
-                "number": 63,
+                "index": 63,
                 "text": "Masivní nebo stříkající krvácení:",
                 "type": "text",
                 "videoLink": null,
@@ -6408,7 +6408,7 @@
                 ]
             },
             {
-                "number": 64,
+                "index": 64,
                 "text": "Masivní krvácení zastavujeme:",
                 "type": "text",
                 "videoLink": null,
@@ -6429,7 +6429,7 @@
                 ]
             },
             {
-                "number": 65,
+                "index": 65,
                 "text": "K vypuzení cizího tělesa z dýchacích cest použijeme stlačení nadbřišku (Heimlichův manévr) u:",
                 "type": "text",
                 "videoLink": null,
@@ -6450,7 +6450,7 @@
                 ]
             },
             {
-                "number": 66,
+                "index": 66,
                 "text": "Prvním výkonem při první pomoci u zraněného v bezvědomí bude:",
                 "type": "text",
                 "videoLink": null,
@@ -6471,7 +6471,7 @@
                 ]
             },
             {
-                "number": 67,
+                "index": 67,
                 "text": "Jak se zachováte při kolapsovém stavu, kdy postižený upadne a ztrácí vědomí?",
                 "type": "text",
                 "videoLink": null,
@@ -6492,7 +6492,7 @@
                 ]
             },
             {
-                "number": 68,
+                "index": 68,
                 "text": "Kdy zahájíte zevní srdeční masáž:",
                 "type": "text",
                 "videoLink": null,
@@ -6513,7 +6513,7 @@
                 ]
             },
             {
-                "number": 69,
+                "index": 69,
                 "text": "U dopravní nehody s poraněním voláme jako první:",
                 "type": "text",
                 "videoLink": null,
@@ -6534,7 +6534,7 @@
                 ]
             },
             {
-                "number": 70,
+                "index": 70,
                 "text": "Poraněný se po dopravní nehodě se domáhá tekutin, jak se zachováte:",
                 "type": "text",
                 "videoLink": null,
@@ -6555,7 +6555,7 @@
                 ]
             },
             {
-                "number": 71,
+                "index": 71,
                 "text": "Při umělém dýchání z plic do plic u dospělého:",
                 "type": "text",
                 "videoLink": null,
@@ -6576,7 +6576,7 @@
                 ]
             },
             {
-                "number": 72,
+                "index": 72,
                 "text": "Jak budete postupovat, jste-li sami a opakovaně se Vám nedaří zajistit dýchací cesty:",
                 "type": "text",
                 "videoLink": null,
@@ -6597,7 +6597,7 @@
                 ]
             },
             {
-                "number": 73,
+                "index": 73,
                 "text": "U poraněného v hlubokém bezvědomí a bezdeší nastávají nezvratné změny mozkové tkáně do:",
                 "type": "text",
                 "videoLink": null,
@@ -6618,7 +6618,7 @@
                 ]
             },
             {
-                "number": 74,
+                "index": 74,
                 "text": "Při poranění motorkáře, který je v bezvědomí a nedýchá:",
                 "type": "text",
                 "videoLink": null,
@@ -6639,7 +6639,7 @@
                 ]
             },
             {
-                "number": 75,
+                "index": 75,
                 "text": "Při úrazu hlavy s drobnějším viditelným krvácením nejvíce poraněného ohrožuje:",
                 "type": "text",
                 "videoLink": null,
@@ -6660,7 +6660,7 @@
                 ]
             },
             {
-                "number": 76,
+                "index": 76,
                 "text": "Při provádění zevní srdeční masáže je správné stlačení hrudní kosti asi o:",
                 "type": "text",
                 "videoLink": null,
@@ -6681,7 +6681,7 @@
                 ]
             },
             {
-                "number": 77,
+                "index": 77,
                 "text": "Jak budete postupovat u poraněného, který má po pádu z motocyklu zlomenou dolní končetinu a reaguje na oslovení:",
                 "type": "text",
                 "videoLink": null,
@@ -6702,7 +6702,7 @@
                 ]
             },
             {
-                "number": 78,
+                "index": 78,
                 "text": "Poraněný je v bezvědomí, leží na zádech a zatím dýchá. Náhle začne zvracet. Jak budete postupovat:",
                 "type": "text",
                 "videoLink": null,
@@ -6723,7 +6723,7 @@
                 ]
             },
             {
-                "number": 79,
+                "index": 79,
                 "text": "Hrozí trestní postih, pokud neposkytnete první pomoc:",
                 "type": "text",
                 "videoLink": null,
@@ -6740,7 +6740,7 @@
                 ]
             },
             {
-                "number": 80,
+                "index": 80,
                 "text": "Pokud vidíte, že účastník nehody masivně krvácí:",
                 "type": "text",
                 "videoLink": null,
@@ -6761,7 +6761,7 @@
                 ]
             },
             {
-                "number": 81,
+                "index": 81,
                 "text": "Jak zjistíte stav vědomí pacienta:",
                 "type": "text",
                 "videoLink": null,
@@ -6782,7 +6782,7 @@
                 ]
             },
             {
-                "number": 82,
+                "index": 82,
                 "text": "Jak jednoznačně zjistíte, že poraněný dýchá:",
                 "type": "text",
                 "videoLink": null,
@@ -6803,7 +6803,7 @@
                 ]
             },
             {
-                "number": 83,
+                "index": 83,
                 "text": "Jak zajistíte průchodnost dýchacích cest:",
                 "type": "text",
                 "videoLink": null,
@@ -6824,7 +6824,7 @@
                 ]
             },
             {
-                "number": 84,
+                "index": 84,
                 "text": "Po zahájení resuscitace je nejdůležitější:",
                 "type": "text",
                 "videoLink": null,
@@ -6845,7 +6845,7 @@
                 ]
             },
             {
-                "number": 85,
+                "index": 85,
                 "text": "Jste svědek dopravní nehody, na místě jsou dva zranění, z nichž jeden je v bezvědomí, druhý při vědomí, ale výrazně krvácí. Jaký bude Váš postup?",
                 "type": "text",
                 "videoLink": null,
@@ -6866,7 +6866,7 @@
                 ]
             },
             {
-                "number": 86,
+                "index": 86,
                 "text": "Zjistíte, že poraněný má v ráně zabodnuté cizí těleso. Co uděláte?",
                 "type": "text",
                 "videoLink": null,
@@ -6887,7 +6887,7 @@
                 ]
             },
             {
-                "number": 87,
+                "index": 87,
                 "text": "Poraněný je při vědomí a velmi silně krvácí z rány na krku. Co uděláte?",
                 "type": "text",
                 "videoLink": null,
@@ -6908,7 +6908,7 @@
                 ]
             },
             {
-                "number": 88,
+                "index": 88,
                 "text": "Poraněný je při vědomí a stěžuje si na silnou bolest v oblasti zad, eventuálně na brnění nebo necitlivost dolních končetin. Jaké by mohl mít poranění?",
                 "type": "text",
                 "videoLink": null,
@@ -6929,7 +6929,7 @@
                 ]
             },
             {
-                "number": 89,
+                "index": 89,
                 "text": "Poraněný je v bezvědomí a dýchá. Jakou pomoc mu poskytnete?",
                 "type": "text",
                 "videoLink": null,
@@ -6950,7 +6950,7 @@
                 ]
             },
             {
-                "number": 90,
+                "index": 90,
                 "text": "Pro kvalitně prováděnou srdeční masáž je nejdůležitější",
                 "type": "text",
                 "videoLink": null,
@@ -6971,7 +6971,7 @@
                 ]
             },
             {
-                "number": 91,
+                "index": 91,
                 "text": "U poraněného s podezřením na úraz páteře:",
                 "type": "text",
                 "videoLink": null,
@@ -6992,7 +6992,7 @@
                 ]
             },
             {
-                "number": 92,
+                "index": 92,
                 "text": "Pří zevní srdeční masáži",
                 "type": "text",
                 "videoLink": null,
@@ -7016,12 +7016,12 @@
     },
     {
         "link": "http://etesty2.mdcr.cz/Test/TestPractise/33",
-        "number": 7,
+        "index": 7,
         "title": "Prevence a řešení mimořádných událostí",
         "questionCount": 21,
         "questions": [
             {
-                "number": 1,
+                "index": 1,
                 "text": "Za jízdy v noci se vám náhle v dálkových světlech objeví lesní zvěř. Jak se zachováte?",
                 "type": "text",
                 "videoLink": null,
@@ -7042,7 +7042,7 @@
                 ]
             },
             {
-                "number": 2,
+                "index": 2,
                 "text": "První aktivitou účastníků dopravní nehody musí být:",
                 "type": "text",
                 "videoLink": null,
@@ -7063,7 +7063,7 @@
                 ]
             },
             {
-                "number": 3,
+                "index": 3,
                 "text": "Jakým způsobem předvídáte nečekané situace?",
                 "type": "text",
                 "videoLink": null,
@@ -7084,7 +7084,7 @@
                 ]
             },
             {
-                "number": 4,
+                "index": 4,
                 "text": "Pokud je řidič oslněn světly protijedoucího auta, oko se opět přizpůsobí normálnímu vidění za:",
                 "type": "text",
                 "videoLink": null,
@@ -7105,7 +7105,7 @@
                 ]
             },
             {
-                "number": 5,
+                "index": 5,
                 "text": "Během bezpečnostní přestávky řidič:",
                 "type": "text",
                 "videoLink": null,
@@ -7126,7 +7126,7 @@
                 ]
             },
             {
-                "number": 6,
+                "index": 6,
                 "text": "Kde se mají zdržovat cestující v případě dopravní nehody na dálnici?",
                 "type": "text",
                 "videoLink": null,
@@ -7147,7 +7147,7 @@
                 ]
             },
             {
-                "number": 7,
+                "index": 7,
                 "text": "Jaké činnosti nesmí vykonávat řidič, který je účastníkem dopravní nehody?",
                 "type": "text",
                 "videoLink": null,
@@ -7168,7 +7168,7 @@
                 ]
             },
             {
-                "number": 8,
+                "index": 8,
                 "text": "Po výměně kola matice na kole:",
                 "type": "text",
                 "videoLink": null,
@@ -7189,7 +7189,7 @@
                 ]
             },
             {
-                "number": 9,
+                "index": 9,
                 "text": "Když je při výměně kol nutno dohustit pneumatiku:",
                 "type": "text",
                 "videoLink": null,
@@ -7210,7 +7210,7 @@
                 ]
             },
             {
-                "number": 10,
+                "index": 10,
                 "text": "Při výměně kol:",
                 "type": "text",
                 "videoLink": null,
@@ -7231,7 +7231,7 @@
                 ]
             },
             {
-                "number": 11,
+                "index": 11,
                 "text": "Při výměně kola:",
                 "type": "text",
                 "videoLink": null,
@@ -7252,7 +7252,7 @@
                 ]
             },
             {
-                "number": 12,
+                "index": 12,
                 "text": "Při výměně kola:",
                 "type": "text",
                 "videoLink": null,
@@ -7273,7 +7273,7 @@
                 ]
             },
             {
-                "number": 13,
+                "index": 13,
                 "text": "Spoiler se nastavuje podle:",
                 "type": "text",
                 "videoLink": null,
@@ -7294,7 +7294,7 @@
                 ]
             },
             {
-                "number": 14,
+                "index": 14,
                 "text": "Snížený tlak v pneumatikách o 100 kPa zvýší spotřebu paliva až o:",
                 "type": "text",
                 "videoLink": null,
@@ -7315,7 +7315,7 @@
                 ]
             },
             {
-                "number": 15,
+                "index": 15,
                 "text": "Při nízkém tlaku v pneumatikách je překonáván zvýšený valivý odpor a:",
                 "type": "text",
                 "videoLink": null,
@@ -7336,7 +7336,7 @@
                 ]
             },
             {
-                "number": 16,
+                "index": 16,
                 "text": "Jak obvykle reaguje starší řidič nebo chodec na vnější podněty?",
                 "type": "text",
                 "videoLink": null,
@@ -7357,7 +7357,7 @@
                 ]
             },
             {
-                "number": 17,
+                "index": 17,
                 "text": "V lesním úseku, kterým projíždíte se před vámi objeví vysoká lesní zvěř. Jak se zachováte?",
                 "type": "text",
                 "videoLink": null,
@@ -7378,7 +7378,7 @@
                 ]
             },
             {
-                "number": 18,
+                "index": 18,
                 "text": "Krátce běžet ve volnoběhu necháváme motor:",
                 "type": "text",
                 "videoLink": null,
@@ -7399,7 +7399,7 @@
                 ]
             },
             {
-                "number": 19,
+                "index": 19,
                 "text": "Účastníkem dopravní nehody je:",
                 "type": "text",
                 "videoLink": null,
@@ -7420,7 +7420,7 @@
                 ]
             },
             {
-                "number": 20,
+                "index": 20,
                 "text": "Volně napnutou plachtou vozidla je:",
                 "type": "text",
                 "videoLink": null,
@@ -7441,7 +7441,7 @@
                 ]
             },
             {
-                "number": 21,
+                "index": 21,
                 "text": "Pokud je vozidlo vybaveno EDC (electronic diesel control) startujeme:",
                 "type": "text",
                 "videoLink": null,

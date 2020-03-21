@@ -1,10 +1,10 @@
-export type TTopics = {
+export type TTopic = {
     link: string;
-    number: number;
+    index: number;
     title: string;
     questionCount: number;
     questions: {
-        number: number;
+        index: number;
         text: string;
         type: "text" | "video" | "image";
         videoLink: null | string;
@@ -14,17 +14,17 @@ export type TTopics = {
             isCorrect: boolean;
         }[];
     }[];
-}[];
+};
 
-export const topics: TTopics = [
+export const topics: TTopic[] = [
     {
         link: "http://etesty2.mdcr.cz/Test/TestPractise/26",
-        number: 0,
+        index: 0,
         title: "Teorie pokročilého racionálního řízení a ZBJ",
         questionCount: 30,
         questions: [
             {
-                number: 1,
+                index: 1,
                 text: "Schopnost pneumatik přenášet síly na podklad:",
                 type: "text",
                 videoLink: null,
@@ -45,7 +45,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 2,
+                index: 2,
                 text:
                     "Uzávěrka diferenciálu zabezpečí, že se na obě kola jedné nápravy:",
                 type: "text",
@@ -70,7 +70,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 3,
+                index: 3,
                 text: "Diferenciál při průjezdu zatáčkou umožňuje:",
                 type: "text",
                 videoLink: null,
@@ -94,7 +94,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 4,
+                index: 4,
                 text: "Akumulátoru škodí:",
                 type: "text",
                 videoLink: null,
@@ -116,7 +116,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 5,
+                index: 5,
                 text: "Kapacita akumulátoru s klesající teplotou okolí:",
                 type: "text",
                 videoLink: null,
@@ -137,7 +137,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 6,
+                index: 6,
                 text: "Nesprávná geometrie řídicí nápravy:",
                 type: "text",
                 videoLink: null,
@@ -160,7 +160,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 7,
+                index: 7,
                 text:
                     "Při krizovém brzdění s nákladním automobilem s návěsem s ABS na mokrém povrchu musí řidič:",
                 type: "text",
@@ -185,7 +185,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 8,
+                index: 8,
                 text:
                     "Při krizovém brzdění s nákladním automobilem bez ABS na suchém povrchu musí řidič:",
                 type: "text",
@@ -210,7 +210,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 9,
+                index: 9,
                 text:
                     "Při brzdění s nákladním automobilem bez ABS na zasněženém povrchu musí řidič:",
                 type: "text",
@@ -235,7 +235,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 10,
+                index: 10,
                 text:
                     "Při krizovém brzdění s nákladním automobilem s návěsem vybaveném ABS na suchém povrchu musí řidič:",
                 type: "text",
@@ -260,7 +260,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 11,
+                index: 11,
                 text: "Při přetočení motoru:",
                 type: "text",
                 videoLink: null,
@@ -284,7 +284,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 12,
+                index: 12,
                 text: "Při řízení patrového autobusu musí řidič brát do úvahy:",
                 type: "text",
                 videoLink: null,
@@ -305,7 +305,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 13,
+                index: 13,
                 text: "Způsob řízení autobusu výrazně ovlivňuje:",
                 type: "text",
                 videoLink: null,
@@ -326,7 +326,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 14,
+                index: 14,
                 text:
                     "Za předjíždění se nepovažuje, jestliže je hustota provozu v jednom směru jízdy:",
                 type: "text",
@@ -340,18 +340,18 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Taková, že se vytvoří souvislý proud vozidel a rychleji jedoucí vozidlo by bylo zpomaleno při přejíždění z jednoho pruhu do druhého.",
+                            "Taková, že se vytvoří souvislý proud vozidel a rychleji jedoucí vozidlo by bylo zpomaleno při přejíždění z jednoho pruhu do druhého.  ",
                         isCorrect: false
                     },
                     {
                         text:
-                            "Taková, že řidič vozidla na dálnici použije k jízdě odstavný pruh.",
+                            "Taková, že řidič vozidla na dálnici použije k jízdě odstavný pruh.  ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 15,
+                index: 15,
                 text:
                     "Odlehčovací brzdové systémy, např.Telma, je vhodné používat u autobusů:",
                 type: "text",
@@ -376,7 +376,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 16,
+                index: 16,
                 text:
                     "Odlehčovací brzdové systémy nákladních automobilů (například retardér) je vhodné používat:",
                 type: "text",
@@ -399,7 +399,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 17,
+                index: 17,
                 text:
                     "Pokud na opravu defektu bezdušové pneumatiky je nezbytné použít duši:",
                 type: "text",
@@ -424,7 +424,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 18,
+                index: 18,
                 text: "Elektronický stabilizační systém (ESP):",
                 type: "text",
                 videoLink: null,
@@ -448,7 +448,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 19,
+                index: 19,
                 text: "Defenzivní způsob jízdy:",
                 type: "text",
                 videoLink: null,
@@ -471,7 +471,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 20,
+                index: 20,
                 text: "Délka reakčního času řidiče:",
                 type: "text",
                 videoLink: null,
@@ -492,7 +492,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 21,
+                index: 21,
                 text: "Vozidlo vybavené brzdovým systémem ABS:",
                 type: "text",
                 videoLink: null,
@@ -516,7 +516,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 22,
+                index: 22,
                 text:
                     "Při sníženém tlaku v pneumatikách trpí podstatně větším opotřebením:",
                 type: "text",
@@ -539,7 +539,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 23,
+                index: 23,
                 text:
                     "Použití duší do poškozeného pláště TUBELESS, je možno v případě:",
                 type: "text",
@@ -548,7 +548,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Drobných průpichů či drobných poškození patek s následnou ztrátou těsnosti bezdušového pláště.",
+                            "Drobných průpichů či drobných poškození patek s následnou ztrátou těsnosti bezdušového pláště. ",
                         isCorrect: true
                     },
                     {
@@ -564,7 +564,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 24,
+                index: 24,
                 text: "Podhuštěná pneumatika:",
                 type: "text",
                 videoLink: null,
@@ -588,7 +588,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 25,
+                index: 25,
                 text: "Přerušované brzdění:",
                 type: "text",
                 videoLink: null,
@@ -610,7 +610,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 26,
+                index: 26,
                 text:
                     "Dodržování a pravidelná kontrola stanoveného tlaku v pneumatikách ovlivňuje:",
                 type: "text",
@@ -632,7 +632,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 27,
+                index: 27,
                 text: "Defenzivní způsob jízdy:",
                 type: "text",
                 videoLink: null,
@@ -656,7 +656,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 28,
+                index: 28,
                 text:
                     "Řidič článkového autobusu před zastavením v zastávce (zálivu) opíše přední nápravou malý oblouk směrem od obrubníku, tzv. zvláštní manévr. Tento manévr mu umožní:",
                 type: "text",
@@ -678,7 +678,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 29,
+                index: 29,
                 text:
                     "Na rozdíl od ostatních řidičů musí řidič autobusu při jízdě věnovat pozornost navíc:",
                 type: "text",
@@ -700,7 +700,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 30,
+                index: 30,
                 text: "Kouření při jízdě je zakázáno:",
                 type: "text",
                 videoLink: null,
@@ -724,12 +724,12 @@ export const topics: TTopics = [
     },
     {
         link: "http://etesty2.mdcr.cz/Test/TestPractise/27",
-        number: 1,
+        index: 1,
         title: "Uplatnění vnitrostátních a mezinárodních právních ",
         questionCount: 98,
         questions: [
             {
-                number: 1,
+                index: 1,
                 text:
                     "Jaká musí být dodržena vzdálenost mezi jednotlivými dopravními prostředky kolony vozidel nebo jízdních souprav přepravujících výbušniny, musí-li kolona zastavit z provozních důvodů?",
                 type: "text",
@@ -751,7 +751,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 2,
+                index: 2,
                 text:
                     "Kdo povoluje zvláštní užívání silnic formou přepravy zvlášť těžkých nebo rozměrných předmětů a užívání vozidel, jejichž rozměry nebo hmotnost přesahují míru stanovenou zvláštními předpisy?",
                 type: "text",
@@ -776,7 +776,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 3,
+                index: 3,
                 text:
                     "Při tomto pokynu policisty je vaší povinností, jako řidiče vozidla z výhledu,  zastavit vozidlo před hranicí křižovatky?",
                 type: "video",
@@ -794,7 +794,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 4,
+                index: 4,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -803,13 +803,13 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Máte přednost v jízdě před zeleným i žlutým vozidlem.",
-                        isCorrect: true
+                            "Máte přednost v jízdě před zeleným i žlutým vozidlem. ",
+                        isCorrect: false
                     },
                     {
                         text:
                             "Musíte dát přednost v jízdě žlutému vozidlu i zelenému vozidlu.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -819,7 +819,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 5,
+                index: 5,
                 text:
                     "Jedete v obci jako řidič vozidla z výhledu. Je vaší povinností umožnit autobusu vyjetí ze zastávky?",
                 type: "video",
@@ -838,13 +838,13 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Ano, pouze snížením rychlosti nebo změnou směru jízdy, nikoli zastavením vozidla.",
+                            "Ano, pouze snížením rychlosti nebo změnou směru jízdy, nikoli zastavením vozidla. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 6,
+                index: 6,
                 text:
                     "Jako řidič vozidla z výhledu projedete touto křižovatkou:",
                 type: "video",
@@ -854,21 +854,21 @@ export const topics: TTopics = [
                     {
                         text:
                             "Jako první. Zelené vozidlo vám musí dát přednost v jízdě.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "Jako druhý, protože zelené vozidlo má přednost v jízdě zprava.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
-                        text: "Jako první. Vozidlo zprava odbočuje.",
+                        text: "Jako první. Vozidlo zprava odbočuje. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 7,
+                index: 7,
                 text: "Jste řidičem vozidla z výhledu. Na křižovatce:",
                 type: "video",
                 videoLink: "http://etesty2.mdcr.cz/Content/ImageQuestion/2989",
@@ -876,12 +876,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Dáte přednost v jízdě červenému i zelenému vozidlu.",
+                            "Dáte přednost v jízdě červenému i zelenému vozidlu. ",
                         isCorrect: true
                     },
                     {
                         text:
-                            "Máte přednost v jízdě před červeným i zeleným vozidlem.",
+                            "Máte přednost v jízdě před červeným i zeleným vozidlem. ",
                         isCorrect: false
                     },
                     {
@@ -892,7 +892,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 8,
+                index: 8,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -900,7 +900,7 @@ export const topics: TTopics = [
                 imageLinks: null,
                 answers: [
                     {
-                        text: "Pojedete jako první.",
+                        text: "Pojedete jako první. ",
                         isCorrect: true
                     },
                     {
@@ -908,13 +908,13 @@ export const topics: TTopics = [
                         isCorrect: false
                     },
                     {
-                        text: "Pojedete jako poslední.",
+                        text: "Pojedete jako poslední. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 9,
+                index: 9,
                 text: "K přechodu pro chodce je řidič povinen se přibližovat:",
                 type: "video",
                 videoLink: "http://etesty2.mdcr.cz/Content/ImageQuestion/2993",
@@ -927,7 +927,7 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Rychlostí nejvýše 50 km/h, aby mohl kdykoliv zabrzdit, pokud by chodec vstoupil na přechod pro chodce. Chodce může ohrozit.",
+                            "Rychlostí nejvýše 50 km/h, aby mohl kdykoliv zabrzdit, pokud by chodec vstoupil na přechod pro chodce. Chodce může ohrozit. ",
                         isCorrect: false
                     },
                     {
@@ -938,7 +938,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 10,
+                index: 10,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -947,8 +947,8 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Projedete jako první, protože jste na hlavní pozemní komunikaci.",
-                        isCorrect: true
+                            "Projedete jako první, protože jste na hlavní pozemní komunikaci. ",
+                        isCorrect: false
                     },
                     {
                         text:
@@ -958,12 +958,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "Projedete jako druhý, dáváte přednost v jízdě červenému vozidlu.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 11,
+                index: 11,
                 text: "Jako řidič vozidla z výhledu:",
                 type: "video",
                 videoLink: "http://etesty2.mdcr.cz/Content/ImageQuestion/2999",
@@ -981,13 +981,13 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Máte přednost v jízdě před řidičem přijíždějícím zleva.",
+                            "Máte přednost v jízdě před řidičem přijíždějícím zleva. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 12,
+                index: 12,
                 text:
                     "Můžete jako řidič vozidla z výhledu vjet do křižovatky před vozidlem, které přijíždí zleva?",
                 type: "video",
@@ -1012,7 +1012,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 13,
+                index: 13,
                 text: "Jste řidičem vozidla z výhledu. Při jízdě křižovatkou:",
                 type: "video",
                 videoLink: "http://etesty2.mdcr.cz/Content/ImageQuestion/3005",
@@ -1021,12 +1021,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "Zelené vozidlo nemá přednost před vámi. Odbočuje vlevo.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "Dáte přednost v jízdě zelenému vozidlu, protože přijíždí zprava.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -1036,7 +1036,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 14,
+                index: 14,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -1060,7 +1060,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 15,
+                index: 15,
                 text:
                     "Jste řidičem vozidla z výhledu. Při jízdě křižovatkou, která je znázorněna na obrázku:",
                 type: "video",
@@ -1070,12 +1070,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "Máte přednost v jízdě před zeleným vozidlem, protože zelené vozidlo přijíždí zprava.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "Dáte přednost v jízdě zelenému vozidlu, protože zelené vozidlo přijíždí zprava.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -1085,7 +1085,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 16,
+                index: 16,
                 text:
                     "Blížíte se k místu, kde si děti hrají na chodníku. Jak se musíte zachovat?",
                 type: "video",
@@ -1110,7 +1110,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 17,
+                index: 17,
                 text:
                     "Jste řidičem vozidla z výhledu. Ve vyobrazené dopravní situaci:",
                 type: "video",
@@ -1120,7 +1120,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "Můžete odbočit vlevo, aniž byste někomu musel(-a) dávat přednost. Chodec je povinen umožnit vozidlu odbočit.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
@@ -1130,12 +1130,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "Smíte odbočit vlevo, ale musíte dát přednost chodcům přecházejícím ve volném směru po přechodu pro chodce.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 18,
+                index: 18,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -1144,23 +1144,23 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Musíte dát přednost v jízdě oběma přijíždějícím vozidlům.",
+                            "Musíte dát přednost v jízdě oběma přijíždějícím vozidlům. ",
                         isCorrect: true
                     },
                     {
                         text:
-                            "Musíte dát přednost v jízdě pouze protijedoucímu červenému vozidlu.",
+                            "Musíte dát přednost v jízdě pouze protijedoucímu červenému vozidlu. ",
                         isCorrect: false
                     },
                     {
                         text:
-                            "Projedete křižovatkou současně se zeleným vozidlem. Míjíte se vpravo.",
+                            "Projedete křižovatkou současně se zeleným vozidlem. Míjíte se vpravo. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 19,
+                index: 19,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -1169,23 +1169,23 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Nedáváte přednost žádnému vozidlu. Jste na hlavní pozemní komunikaci.",
-                        isCorrect: true
+                            "Nedáváte přednost žádnému vozidlu. Jste na hlavní pozemní komunikaci. ",
+                        isCorrect: false
                     },
                     {
                         text:
-                            "Po najetí do křižovatky zastavíte a dáváte přednost v jízdě protijedoucímu žlutému vozidlu.",
+                            "Po najetí do křižovatky zastavíte a dáváte přednost v jízdě protijedoucímu žlutému vozidlu. ",
                         isCorrect: false
                     },
                     {
                         text:
                             "Dáváte přednost v jízdě červenému nákladnímu vozidlu; přijíždí po hlavní pozemní komunikaci zprava.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 20,
+                index: 20,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -1195,12 +1195,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "Máte přednost pře všemi vozidly v křižovatce. Jste na hlavní pozemní komunikaci.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "Přednost v jízdě má modré vozidlo, až  opustí křižovatku, projedete křižovatkou současně s červeným vozidlem.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -1210,7 +1210,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 21,
+                index: 21,
                 text: "Jste řidičem vozidla z výhledu. Na této křižovatce:",
                 type: "video",
                 videoLink: "http://etesty2.mdcr.cz/Content/ImageQuestion/3021",
@@ -1218,7 +1218,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Pojedete jako první, současně s modrým vozidlem přijíždějícímu zprava.",
+                            "Pojedete jako první, současně s modrým vozidlem přijíždějícímu zprava. ",
                         isCorrect: true
                     },
                     {
@@ -1234,7 +1234,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 22,
+                index: 22,
                 text: "Jste řidičem vozidla z výhledu. Na křižovatce:",
                 type: "video",
                 videoLink: "http://etesty2.mdcr.cz/Content/ImageQuestion/3027",
@@ -1242,7 +1242,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Dáte přednost v jízdě modrému automobilu a pak projedete křižovatkou.",
+                            "Dáte přednost v jízdě modrému automobilu a pak projedete křižovatkou. ",
                         isCorrect: true
                     },
                     {
@@ -1258,7 +1258,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 23,
+                index: 23,
                 text: "Jste řidičem vozidla z výhledu. Na této křižovatce:",
                 type: "video",
                 videoLink: "http://etesty2.mdcr.cz/Content/ImageQuestion/3029",
@@ -1282,7 +1282,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 24,
+                index: 24,
                 text: "Jste řidičem vozidla z výhledu. Na křižovatce:",
                 type: "video",
                 videoLink: "http://etesty2.mdcr.cz/Content/ImageQuestion/3031",
@@ -1306,7 +1306,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 25,
+                index: 25,
                 text:
                     "Jste řidičem vozidla z výhledu. Křižovatkou projedete jako:",
                 type: "video",
@@ -1330,7 +1330,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 26,
+                index: 26,
                 text:
                     "Jste řidičem vozidla z výhledu. Křižovatkou projedete jako:",
                 type: "video",
@@ -1346,13 +1346,13 @@ export const topics: TTopics = [
                         isCorrect: false
                     },
                     {
-                        text: "V pořadí jako druhý, po modrém vozidle.",
+                        text: "V pořadí jako druhý, po modrém vozidle. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 27,
+                index: 27,
                 text:
                     "Jste řidičem vozidla z výhledu. Křižovatkou projedete jako:",
                 type: "video",
@@ -1376,7 +1376,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 28,
+                index: 28,
                 text:
                     "Která z vyobrazených dopravních značek neupravuje přednost?",
                 type: "image",
@@ -1389,20 +1389,20 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: ".",
+                        isCorrect: false
+                    },
+                    {
+                        text: ".",
+                        isCorrect: false
+                    },
+                    {
+                        text: ".",
                         isCorrect: true
-                    },
-                    {
-                        text: ".",
-                        isCorrect: false
-                    },
-                    {
-                        text: ".",
-                        isCorrect: false
                     }
                 ]
             },
             {
-                number: 29,
+                index: 29,
                 text: "Která z těchto dopravních značek zakazuje zastavení?",
                 type: "image",
                 videoLink: null,
@@ -1427,7 +1427,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 30,
+                index: 30,
                 text:
                     "Která z vyobrazených dodatkových tabulek vyznačuje úsek platnosti dopravní značky, pod kterou je umístěna:",
                 type: "image",
@@ -1453,7 +1453,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 31,
+                index: 31,
                 text:
                     "Označte dodatkovou tabulku, která vyznačuje vzdálenost k místu, od kterého platí značka, pod níž je tato dodatková tabulka umístěna.",
                 type: "image",
@@ -1479,7 +1479,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 32,
+                index: 32,
                 text:
                     "Která z vyobrazených dopravních značek označuje hlavní pozemní komunikaci.",
                 type: "image",
@@ -1505,7 +1505,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 33,
+                index: 33,
                 text:
                     "Která z vyobrazených dodatkových tabulek vyznačuje skutečný tvar křižovatky a současně i hlavní a vedlejší pozemní komunikaci:",
                 type: "image",
@@ -1518,11 +1518,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: ".",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: ".",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: ".",
@@ -1531,7 +1531,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 34,
+                index: 34,
                 text:
                     "Která z vyobrazených dodatkových tabulek vyznačuje směr k místu, ke kterému se vztahuje dopravní značka, pod kterou je tato tabulka umístěna:",
                 type: "image",
@@ -1544,20 +1544,20 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: ".",
+                        isCorrect: false
+                    },
+                    {
+                        text: ".",
+                        isCorrect: false
+                    },
+                    {
+                        text: ".",
                         isCorrect: true
-                    },
-                    {
-                        text: ".",
-                        isCorrect: false
-                    },
-                    {
-                        text: ".",
-                        isCorrect: false
                     }
                 ]
             },
             {
-                number: 35,
+                index: 35,
                 text: "Jsou v rámci zemí Evropy sjednocené dopravní značky?",
                 type: "text",
                 videoLink: null,
@@ -1581,7 +1581,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 36,
+                index: 36,
                 text: "Jezdí se ve všech státech Evropy vpravo?",
                 type: "text",
                 videoLink: null,
@@ -1603,7 +1603,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 37,
+                index: 37,
                 text: "Na přepravu do Velké Británie je potřebné využít:",
                 type: "text",
                 videoLink: null,
@@ -1625,7 +1625,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 38,
+                index: 38,
                 text: "Na která vozidla se uplatňuje mýto v Rakousku?",
                 type: "text",
                 videoLink: null,
@@ -1646,7 +1646,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 39,
+                index: 39,
                 text:
                     "Kdo je podle zákona o silniční dopravě provozovatelem silniční dopravy (dopravcem)?",
                 type: "text",
@@ -1671,7 +1671,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 40,
+                index: 40,
                 text: "Co se rozumí nebezpečnými věcmi?",
                 type: "text",
                 videoLink: null,
@@ -1679,7 +1679,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Látky a předměty, pro jejichž povahu, vlastnosti nebo stav může být v souvislosti s jejich přepravou ohrožena bezpečnost osob, zvířat a věcí nebo ohroženo životní prostředí.",
+                            "Látky a předměty, pro jejichž povahu, vlastnosti nebo stav může být v souvislosti s jejich přepravou ohrožena bezpečnost osob, zvířat a věcí nebo ohroženo životní prostředí. ",
                         isCorrect: true
                     },
                     {
@@ -1695,7 +1695,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 41,
+                index: 41,
                 text:
                     "Nebezpečné věci se s ohledem na jejich nebezpečné vlastnosti zařazují:",
                 type: "text",
@@ -1719,7 +1719,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 42,
+                index: 42,
                 text:
                     "V době přepravního procesu je zakázáno kouření při jízdě:",
                 type: "text",
@@ -1742,7 +1742,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 43,
+                index: 43,
                 text:
                     "Za protiprávní jednání při přepravě nebezpečného nákladu se považuje:",
                 type: "text",
@@ -1766,7 +1766,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 44,
+                index: 44,
                 text: "Eurolicenci musí mít dopravci, kteří provozují:",
                 type: "text",
                 videoLink: null,
@@ -1778,18 +1778,18 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Autobusovou přepravu cestujících jako povinnou doložku dopravců na území své země.",
+                            "Autobusovou přepravu cestujících jako povinnou doložku dopravců na území své země. ",
                         isCorrect: false
                     },
                     {
                         text:
-                            "Mezinárodní autobusovou přepravu. Eurolicenci je povinen mít každý člen osádky autobusu.",
+                            "Mezinárodní autobusovou přepravu. Eurolicenci je povinen mít každý člen osádky autobusu. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 45,
+                index: 45,
                 text:
                     "Odchylná úprava pracovní doby a doby odpočinku se vztahuje na zaměstnance v pracovní pozici:",
                 type: "text",
@@ -1811,7 +1811,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 46,
+                index: 46,
                 text:
                     "Je celník ve stejnokroji oprávněn zastavit vozidlo v systému elektronického mýtného a podrobit vozidlo kontrole, zda je vybaveno funkčním elektronickým zařízením a zda je evidováno v systému elektronického mýtného?",
                 type: "text",
@@ -1833,7 +1833,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 47,
+                index: 47,
                 text:
                     "Kdo je povinen uzavřít pojistnou smlouvu o pojištění odpovědnosti za škodu způsobenou provozem vozidla?",
                 type: "text",
@@ -1856,7 +1856,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 48,
+                index: 48,
                 text:
                     "Denní pracovní přestávka, v délce nejméně 45 minut, se může rozdělit na dvě části z níž první může být:",
                 type: "text",
@@ -1878,7 +1878,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 49,
+                index: 49,
                 text:
                     "Pokud jsou ve vozidle přítomni nejméně dva řidiči, pak každý z nich musí mít odpočinek:",
                 type: "text",
@@ -1903,7 +1903,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 50,
+                index: 50,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -1928,7 +1928,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 51,
+                index: 51,
                 text:
                     "Náhradním kolem (ráfkem s pneumatikou), klíčem na matice (šrouby) a zvedákem musí být vybaveny:",
                 type: "text",
@@ -1950,7 +1950,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 52,
+                index: 52,
                 text:
                     "V současné době musí být nová vozidla kategorie M2 třídy B a M3 třídy B a III vybavena předepsanými bezpečnostními pásy:",
                 type: "text",
@@ -1974,7 +1974,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 53,
+                index: 53,
                 text:
                     "Jste řidičem vozidla z výhledu. Na vyobrazené křižovatce:",
                 type: "video",
@@ -1983,7 +1983,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Policista Vám dává pokyn „Stůj“. Máte za povinnost zastavit vozidlo před hranicí křižovatky.",
+                            "Policista Vám dává pokyn „Stůj“. Máte za povinnost zastavit vozidlo před hranicí křižovatky. ",
                         isCorrect: true
                     },
                     {
@@ -1999,7 +1999,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 54,
+                index: 54,
                 text: 'Co se rozumí pod pojmem "běžná denní doba odpočinku"?',
                 type: "text",
                 videoLink: null,
@@ -2023,7 +2023,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 55,
+                index: 55,
                 text: "Běžnou denní dobu odpočinku je možno rozdělit do:",
                 type: "text",
                 videoLink: null,
@@ -2044,7 +2044,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 56,
+                index: 56,
                 text: "Doba řízení se počítá:",
                 type: "text",
                 videoLink: null,
@@ -2068,7 +2068,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 57,
+                index: 57,
                 text:
                     "Učební osnovu pravidelného školení při zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., stanoví:",
                 type: "text",
@@ -2090,7 +2090,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 58,
+                index: 58,
                 text:
                     "Zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., může provádět:",
                 type: "text",
@@ -2099,12 +2099,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "každá autoškola.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "fyzická nebo právnická osoba, které byla udělena akreditace k provozování této činnosti.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2114,7 +2114,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 59,
+                index: 59,
                 text:
                     "Předmětem pravidelného školení při zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., je:",
                 type: "text",
@@ -2123,7 +2123,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "získání nové odborné způsobilosti.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "získání klíčových kompetencí v oboru dopravy.",
@@ -2132,12 +2132,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "prohloubení znalostí získaných při vstupním školení.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 60,
+                index: 60,
                 text: "Přestávka v řízení je doba:",
                 type: "text",
                 videoLink: null,
@@ -2146,7 +2146,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "během níž nesmí řidič řídit vozidlo, smí však vykonávat jinou práci v souvislosti s přepravou.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "během níž zpravidla řidič neřídí vozidlo.",
@@ -2155,12 +2155,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "během níž nesmí řidič řídit vozidlo ani vykonávat žádnou jinou práci a která je určena výhradně k jeho zotavení.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 61,
+                index: 61,
                 text: "Doba odpočinku je:",
                 type: "text",
                 videoLink: null,
@@ -2183,7 +2183,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 62,
+                index: 62,
                 text:
                     "Denní doba řízení v pracovním režimu podle Nařízení č. 561/2006:",
                 type: "text",
@@ -2193,12 +2193,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "nesmí přesáhnout 8 hodin; nejvýše 3 x za týden může být prodloužena na 9 hodin.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "nesmí přesáhnout 9 hodin; nejvýše 2 x za týden může být prodloužena na 10 hodin.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "nesmí přesáhnout 10 hodin.",
@@ -2207,7 +2207,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 63,
+                index: 63,
                 text:
                     "Celková doba řízení v pracovním režimu podle Nařízení č. 561/2006:",
                 type: "text",
@@ -2217,7 +2217,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "nesmí za dva po sobě následující týdny přesáhnout 100 hodin.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
@@ -2227,12 +2227,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "nesmí za dva po sobě následující týdny přesáhnout 90 hodin.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 64,
+                index: 64,
                 text:
                     "Nepřerušenou přestávku nejméně 45 minut (pokud nezapočne dobu odpočinku) musí řidič zařadit:",
                 type: "text",
@@ -2241,11 +2241,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "po 4 hodinách řízení.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "po 4,5 hodinách řízení.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "po 3,5 hodinách řízení.",
@@ -2254,7 +2254,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 65,
+                index: 65,
                 text: "Přestávku v řízení může řidič trávit:",
                 type: "text",
                 videoLink: null,
@@ -2263,7 +2263,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "výhradně ve stojícím vozidle; v žádném případě mimo vozidlo nebo v pohybujícím se vozidle, které řídí jiný řidič.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "výhradně mimo vozidlo.",
@@ -2272,12 +2272,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "ve stojícím vozidle nebo mimo vozidlo nebo v pohybujím se vozidle, které řídí jiný řidič.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 66,
+                index: 66,
                 text: "Přestávky v řízení vozidla:",
                 type: "text",
                 videoLink: null,
@@ -2285,11 +2285,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "jsou totéž co denní odpočinek.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "nesmí být považovány za denní odpočinek.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2299,7 +2299,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 67,
+                index: 67,
                 text:
                     "V pracovním režimu podle Nařízení č. 561/2006 smí být přestávka v řízení v trvání nejméně 45 minut nahrazena:",
                 type: "text",
@@ -2323,7 +2323,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 68,
+                index: 68,
                 text: "Doba odpočinku podle dohody AETR smí být zkrácena na:",
                 type: "text",
                 videoLink: null,
@@ -2331,11 +2331,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "nejméně 10 za sebou následujících hodin.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "nejméně 9 za sebou následujících hodin.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2345,7 +2345,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 69,
+                index: 69,
                 text: "Doba odpočinku podle dohody AETR:",
                 type: "text",
                 videoLink: null,
@@ -2369,7 +2369,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 70,
+                index: 70,
                 text: "Doba odpočinku podle dohody AETR:",
                 type: "text",
                 videoLink: null,
@@ -2378,7 +2378,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "smí být zkrácena na 8 za sebou následujících hodin.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "nesmí být zkrácena.",
@@ -2387,12 +2387,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "smí být zkrácena na nejméně 9 za sebou následujících hodin.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 71,
+                index: 71,
                 text: "Nařízení č. 561/2006 se nevztahuje na silniční dopravu:",
                 type: "text",
                 videoLink: null,
@@ -2416,7 +2416,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 72,
+                index: 72,
                 text: "Doba řízení:",
                 type: "text",
                 videoLink: null,
@@ -2440,7 +2440,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 73,
+                index: 73,
                 text: "Řidič smí být držitelem:",
                 type: "text",
                 videoLink: null,
@@ -2448,7 +2448,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "více karet řidiče.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "maximálně dvou platných karet řidiče.",
@@ -2456,12 +2456,12 @@ export const topics: TTopics = [
                     },
                     {
                         text: "pouze jedné platné karty řidiče.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 74,
+                index: 74,
                 text: "Cestující s omezenou schopností pohybu a orientace:",
                 type: "text",
                 videoLink: null,
@@ -2474,7 +2474,7 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "mají přednost při obsazování neoznačených míst k sezení.",
+                            "mají přednost při obsazování neoznačených míst k sezení. ",
                         isCorrect: false
                     },
                     {
@@ -2485,7 +2485,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 75,
+                index: 75,
                 text: "Cestujícím s omezenou schopností pohybu a orientace:",
                 type: "text",
                 videoLink: null,
@@ -2494,12 +2494,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "musí být v městské hromadné dopravě umožněn nástup do vozidla i výstup z vozidla pouze předními dveřmi.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
-                            "musí být v městské hromadné dopravě umožněn nástup do vozidla i výstup z vozidla všemi dveřmi, které jsou označeny pro nástup nebo výstup cestujících.",
-                        isCorrect: false
+                            "musí být v městské hromadné dopravě umožněn nástup do vozidla i výstup z vozidla všemi dveřmi, které jsou označeny pro nástup nebo výstup cestujících. ",
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2509,7 +2509,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 76,
+                index: 76,
                 text:
                     "Za porušení přepravních podmínek lze považovat situaci, kdy cestující při přepravě:",
                 type: "text",
@@ -2518,7 +2518,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "nastoupil s ručním zavazadlem.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "telefonuje.",
@@ -2527,12 +2527,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "kouří ve vozidle nebo v prostorách určených pro cestující, v nichž není kouření povoleno.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 77,
+                index: 77,
                 text: "Věc, která nesmí být zavazadlem nebo obsahem zavazadla:",
                 type: "text",
                 videoLink: null,
@@ -2540,11 +2540,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "je zkazitelná potravina.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "je zejména nabitá zbraň.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "je sklo, porcelán apod.",
@@ -2553,7 +2553,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 78,
+                index: 78,
                 text: "Obsahem zavazadla podle přepravního řádu může být:",
                 type: "text",
                 videoLink: null,
@@ -2562,7 +2562,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "přenosná ocelová láhev s kapalným topným plynem pro domácnost o celkovém obsahu nejvýše 5 kg.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
@@ -2572,12 +2572,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "přenosná ocelová láhev s kapalným topným plynem pro domácnost o celkovém obsahu nejvýše 10 kg.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 79,
+                index: 79,
                 text: "Obsahem zavazadla podle přepravního řádu může být:",
                 type: "text",
                 videoLink: null,
@@ -2601,7 +2601,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 80,
+                index: 80,
                 text: "Cestující může vzít s sebou do vozidla:",
                 type: "text",
                 videoLink: null,
@@ -2609,12 +2609,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "psa i bez náhubku, pokud je vycvičený.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "psa, který má bezpečný náhubek, je držen na vodítku nakrátko a nesmí být přepravován na sedadle.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2624,7 +2624,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 81,
+                index: 81,
                 text: "Z přepravy nelze vyloučit:",
                 type: "text",
                 videoLink: null,
@@ -2632,12 +2632,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "malého psa do 3 kg váhy.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "vodicího psa doprovázejícího nevidomou osobu nebo služebního psa.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "pouze služebního psa.",
@@ -2646,7 +2646,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 82,
+                index: 82,
                 text:
                     "Cestovní zavazadlo je povinen předepsaným způsobem označit:",
                 type: "text",
@@ -2668,7 +2668,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 83,
+                index: 83,
                 text: "Cestovní zavazadlo musí být cestujícím označeno:",
                 type: "text",
                 videoLink: null,
@@ -2676,12 +2676,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "číslem spoje, kterým je přepravováno.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "jménem, příjmením, adresou cestujícího a názvem stanice určení.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "pouze jménem a příjmením cestujícího.",
@@ -2690,7 +2690,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 84,
+                index: 84,
                 text: "Živá zvířata se jako cestovní zavazadlo:",
                 type: "text",
                 videoLink: null,
@@ -2698,7 +2698,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "mohou přepravovat i v uzavřených schránách.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
@@ -2708,12 +2708,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "přepravují výhradně v uzavřených schránách s nepropustným dnem.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 85,
+                index: 85,
                 text:
                     "Cestující ve veřejné silniční osobní dopravě má právo na vrácení jízdného:",
                 type: "text",
@@ -2723,12 +2723,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "jestliže byl podle přepravního řádu vyloučen z přepravy.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "jestliže přeprava nebyla provedena z důvodů na straně dopravce.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2738,7 +2738,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 86,
+                index: 86,
                 text:
                     "V městské hromadné dopravě se jízdné za jednotlivou jízdu:",
                 type: "text",
@@ -2760,7 +2760,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 87,
+                index: 87,
                 text:
                     "Pokud nebyl cestující ve veřejné silniční dopravě přepraven včas:",
                 type: "text",
@@ -2769,11 +2769,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "má právo na vrácení jízdného.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "nemá právo na náhradu škody.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "může uplatnit nárok na náhradu škody.",
@@ -2782,7 +2782,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 88,
+                index: 88,
                 text:
                     "Cestující, který byl vyloučen z přepravy pověřenou osobou:",
                 type: "text",
@@ -2792,7 +2792,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "má právo na vrácení zaplaceného jízdného včetně příplatků a ceny místenky.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "má právo na uhrazení škody.",
@@ -2801,12 +2801,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "nemá právo na vrácení zaplaceného jízdného ani ceny místenky nebo příplatků.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 89,
+                index: 89,
                 text: 'Pro dobu řízení se pojmem "týden" rozumí doba:',
                 type: "text",
                 videoLink: null,
@@ -2814,12 +2814,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "sedmi po sobě následujících dnů.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "od 00:00 hodin v pondělí do 24:00 hodin v neděli.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2829,7 +2829,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 90,
+                index: 90,
                 text: 'Pojem "Pracovní pohotovost" znamená:',
                 type: "text",
                 videoLink: null,
@@ -2838,12 +2838,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "dobu, kdy člen osádky musí být na svém pracovišti a musí být připraven zahájit jízdu, pokračovat v řízení nebo provádět jinou práci.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "dobu, kdy člen osádky nemusí být na svém pracovišti, musí však být k dispozici a být připraven zahájit jízdu, pokračovat v řízení nebo provádět jinou práci.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2853,7 +2853,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 91,
+                index: 91,
                 text:
                     "Povinnost zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., se nevztahuje na řidiče:",
                 type: "text",
@@ -2875,7 +2875,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 92,
+                index: 92,
                 text:
                     "Povinnost zdokonalování odborné způsobilosti řidiče podle zákona č. 247/2000 Sb., se nevztahuje na řidiče",
                 type: "text",
@@ -2885,7 +2885,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "vozidel, jejich nejvyšší povolená rychlost nepřesahuje 50 km.h-1.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
@@ -2895,12 +2895,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "vozidel, jejich nejvyšší povolená rychlost nepřesahuje 45 km.h-1.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 93,
+                index: 93,
                 text:
                     "Výuku a výcvik v rámci zdokonalování odborné způsobilosti řidiče podle zákona č. 247/2000 Sb., může provádět",
                 type: "text",
@@ -2909,12 +2909,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "každá autoškola.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "fyzická nebo právnická osoba, které byla udělena akreditace k provozování této činnosti.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2924,7 +2924,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 94,
+                index: 94,
                 text:
                     "Akreditaci pro zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., uděluje:",
                 type: "text",
@@ -2933,11 +2933,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "ministerstvo dopravy.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "příslušný krajský úřad.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "dopravní úřad.",
@@ -2946,7 +2946,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 95,
+                index: 95,
                 text:
                     "Vstupní školení při zdokonalování odborné způsobilosti řidičů podle zákona č. 247/2000 Sb., se provádí:",
                 type: "text",
@@ -2956,12 +2956,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "formou výuky a výcviku a není zakončeno zkouškou řidičů.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "formou výuky a výcviku a je zakončeno zkouškou z profesní způsobilosti řidičů.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -2971,7 +2971,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 96,
+                index: 96,
                 text: "Povinnost nesmět ohrozit a nesmět omezit se vztahuje",
                 type: "text",
                 videoLink: null,
@@ -2979,12 +2979,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "pouze na řidiče.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "na všechny účastníky provozu na pozemních komunikacích, kterým je tato povinnost stanovena zákonem.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "pouze na chodce.",
@@ -2993,7 +2993,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 97,
+                index: 97,
                 text: "Kolonou vozidel se rozumí:",
                 type: "text",
                 videoLink: null,
@@ -3002,7 +3002,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "proud vozidel s výjimkou motocyklů, který při předjíždění nebo objíždění neumožňuje bezpečné zařazení.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
@@ -3012,12 +3012,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "souvislý proud více vozidel, u kterého nelze předjíždět každé vozidlo jednotlivě, rozestup mezi jednotlivými vozidly při předjíždění nebo objíždění neumožňuje bezpečné zařazení.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 98,
+                index: 98,
                 text:
                     "Na výzvu policisty je řidič povinen podrobit vozidlo kontrole technického stavu vozidla. Zjistí-li se při této kontrole vážná nebo nebezpečná závada",
                 type: "text",
@@ -3026,7 +3026,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "náklady na provedení kontroly je povinen uhradit policii řidič vozidla.",
+                            " náklady na provedení kontroly je povinen uhradit policii řidič vozidla.",
                         isCorrect: true
                     },
                     {
@@ -3045,12 +3045,12 @@ export const topics: TTopics = [
     },
     {
         link: "http://etesty2.mdcr.cz/Test/TestPractise/28",
-        number: 2,
+        index: 2,
         title: "Bezpečnost provozu a ekologický provoz vozidla",
         questionCount: 35,
         questions: [
             {
-                number: 1,
+                index: 1,
                 text:
                     "Jízdní odpor stoupá s vrstvou vody na vozovce s dopadem na spotřebu vozidla až o:",
                 type: "text",
@@ -3072,7 +3072,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 2,
+                index: 2,
                 text:
                     "Stanice technické kontroly, při pravidelné technické prohlídce, může:",
                 type: "text",
@@ -3096,7 +3096,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 3,
+                index: 3,
                 text:
                     "Silniční vozidlo je technicky způsobilé k provozu na pozemních komunikacích pokud:",
                 type: "text",
@@ -3121,7 +3121,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 4,
+                index: 4,
                 text:
                     "Pokud provozovatel silničního vozidla přistaví silniční vozidlo s odstraněnou nebezpečnou závadou ke kontrole technické způsobilosti motorového vozidla do 30 dnů od zjištění závady, provede stanice technické kontroly:",
                 type: "text",
@@ -3131,11 +3131,11 @@ export const topics: TTopics = [
                     {
                         text:
                             "Technickou prohlídku motorového vozidla, včetně opakovaného měření emisí.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "Pouze kontrolu odstranění nebezpečné závady.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "Novou technickou prohlídku motorového vozidla.",
@@ -3144,7 +3144,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 5,
+                index: 5,
                 text: "Co může vést ke smyku vozidla při průjezdu zatáčkami?",
                 type: "text",
                 videoLink: null,
@@ -3152,11 +3152,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Malá hmotnost vozidla.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "Vadné tlumiče vozidla.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "Malá hmotnost nákladu.",
@@ -3165,7 +3165,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 6,
+                index: 6,
                 text: "Pokud je vozidlo naloženo:",
                 type: "text",
                 videoLink: null,
@@ -3188,7 +3188,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 7,
+                index: 7,
                 text: "Odstředivá síla působící na náklad:",
                 type: "text",
                 videoLink: null,
@@ -3209,7 +3209,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 8,
+                index: 8,
                 text: "Při přepravě kapalin v cisterně:",
                 type: "text",
                 videoLink: null,
@@ -3233,7 +3233,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 9,
+                index: 9,
                 text: "Pokud náklad přesahuje obrys vozidla:",
                 type: "text",
                 videoLink: null,
@@ -3255,7 +3255,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 10,
+                index: 10,
                 text: "Při přepravě živých zvířat:",
                 type: "text",
                 videoLink: null,
@@ -3279,7 +3279,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 11,
+                index: 11,
                 text:
                     "Jestliže je nutné vystoupit na ložný prostor vozidla nebo z něho sestoupit, musí se použít:",
                 type: "text",
@@ -3301,7 +3301,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 12,
+                index: 12,
                 text:
                     "V hospodárném rozsahu otáček je nejlépe udržováno vozidlo:",
                 type: "text",
@@ -3323,7 +3323,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 13,
+                index: 13,
                 text:
                     "Ztrátový výkon vozidla vybaveného automatickou převodovkou je daný:",
                 type: "text",
@@ -3346,7 +3346,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 14,
+                index: 14,
                 text: "U synchronizovaných převodovek:",
                 type: "text",
                 videoLink: null,
@@ -3367,7 +3367,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 15,
+                index: 15,
                 text:
                     "Nadměrnému a zbytečnému opotřebení vypínacího ložiska spojky, řadících objímek a kamenů v převodovce zabráníme:",
                 type: "text",
@@ -3392,7 +3392,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 16,
+                index: 16,
                 text:
                     "Hospodárný provoz vozidla se vznětovým motorem zajistíme:",
                 type: "text",
@@ -3401,23 +3401,23 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Rozsahem jmenovitých otáček motoru v pásmu 50-60% jmenovitých otáček a 70-90% sešlápnutím pedálu akcelerace.",
+                            "Rozsahem jmenovitých otáček motoru v pásmu 50-60% jmenovitých otáček a 70-90% sešlápnutím pedálu akcelerace. ",
                         isCorrect: true
                     },
                     {
                         text:
-                            "Rozsahem jmenovitých otáček motoru v pásmu 90-95% jmenovitých otáček a 40-50% sešlápnutím pedálu akcelerace.",
+                            "Rozsahem jmenovitých otáček motoru v pásmu 90-95% jmenovitých otáček a 40-50% sešlápnutím pedálu akcelerace. ",
                         isCorrect: false
                     },
                     {
                         text:
-                            "Rozsahem jmenovitých otáček motoru v pásmu 75% jmenovitých otáček a 100% sešlápnutím pedálu akcelerace.",
+                            "Rozsahem jmenovitých otáček motoru v pásmu 75% jmenovitých otáček a 100% sešlápnutím pedálu akcelerace. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 17,
+                index: 17,
                 text:
                     "Při jízdě do stoupání, předjíždění a zařazení se do proudu vozidel využíváme:",
                 type: "text",
@@ -3441,7 +3441,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 18,
+                index: 18,
                 text:
                     "Při jízdě vozidlem vybaveným automatickou převodovkou řadíme ručně:",
                 type: "text",
@@ -3464,7 +3464,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 19,
+                index: 19,
                 text: "Styl hospodárné jízdy se dosáhne jízdou:",
                 type: "text",
                 videoLink: null,
@@ -3487,7 +3487,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 20,
+                index: 20,
                 text:
                     "Zapojení vozidel do jízdních souprav, (s výjimkou tažení přívěsů kategorií O1 a O2 s nájezdovou brzdou) s ohledem na ABS, není možné v kombinaci:",
                 type: "text",
@@ -3511,7 +3511,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 21,
+                index: 21,
                 text: "Při brzdění vzniká:",
                 type: "text",
                 videoLink: null,
@@ -3532,7 +3532,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 22,
+                index: 22,
                 text:
                     "Jakou informaci musí podle Dohody Interbus obsahovat jízdní list Interbus?",
                 type: "text",
@@ -3554,7 +3554,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 23,
+                index: 23,
                 text: "Čeho se týká Dohoda Interbus?",
                 type: "text",
                 videoLink: null,
@@ -3577,7 +3577,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 24,
+                index: 24,
                 text:
                     "Má cestující v pravidelné autobusové dopravě právo na přepravu cestovního zavazadla a domácích zvířat tím stejným autobusem?",
                 type: "text",
@@ -3602,7 +3602,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 25,
+                index: 25,
                 text: "U sklápěcích vozidel:",
                 type: "text",
                 videoLink: null,
@@ -3624,7 +3624,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 26,
+                index: 26,
                 text: "Jaké zajišťovací prostředky používáme?",
                 type: "text",
                 videoLink: null,
@@ -3646,7 +3646,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 27,
+                index: 27,
                 text:
                     "Jaké druhy dopravních a přepravních prostředků je vhodné použít pro přepravu potravin podléhajících zkáze?",
                 type: "text",
@@ -3669,7 +3669,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 28,
+                index: 28,
                 text:
                     "Co je základní povinností osádky vozidla před započetím přepravy nebezpečných věcí?",
                 type: "text",
@@ -3692,7 +3692,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 29,
+                index: 29,
                 text: "Co se zařazuje také mezi nebezpečné věci?",
                 type: "text",
                 videoLink: null,
@@ -3713,7 +3713,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 30,
+                index: 30,
                 text:
                     "Kdo zodpovídá za označení přepravních obalů při přepravě nebezpečných věcí silniční dopravou?",
                 type: "text",
@@ -3737,7 +3737,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 31,
+                index: 31,
                 text:
                     "Pokud materiál umístěný ve více vrstvách zajišťujeme proti pohybu pomocí vrchního vázání, je potřebné zkontrolovat:",
                 type: "text",
@@ -3761,7 +3761,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 32,
+                index: 32,
                 text:
                     "Může řidič vykázat cestující z prostoru u předních dveří z důvodu bezpečného výhledu ?",
                 type: "text",
@@ -3784,7 +3784,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 33,
+                index: 33,
                 text:
                     "Za spoluzavazadlo, které si cestující bere do kabiny pro cestující, odpovídá:",
                 type: "text",
@@ -3806,7 +3806,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 34,
+                index: 34,
                 text:
                     "Obsahem zavazadla, které si cestující bere do vozidla ve veřejné silniční osobní dopravě, může být:",
                 type: "text",
@@ -3829,7 +3829,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 35,
+                index: 35,
                 text:
                     "Jestliže chceme snížit riziko smyku nákladu, měli bychom:",
                 type: "text",
@@ -3855,12 +3855,12 @@ export const topics: TTopics = [
     },
     {
         link: "http://etesty2.mdcr.cz/Test/TestPractise/29",
-        number: 3,
+        index: 3,
         title: "Poskytování služeb a logistiky",
         questionCount: 32,
         questions: [
             {
-                number: 1,
+                index: 1,
                 text: 'Metoda "Just in time" je metodou pro:',
                 type: "text",
                 videoLink: null,
@@ -3882,7 +3882,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 2,
+                index: 2,
                 text: "Logistika v dopravě koordinuje:",
                 type: "text",
                 videoLink: null,
@@ -3906,7 +3906,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 3,
+                index: 3,
                 text: "Pozornost řidiče při řízení autobusu narušuje:",
                 type: "text",
                 videoLink: null,
@@ -3928,7 +3928,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 4,
+                index: 4,
                 text: "V nákladní dopravě přepravní smlouva vzniká:",
                 type: "text",
                 videoLink: null,
@@ -3950,7 +3950,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 5,
+                index: 5,
                 text:
                     "Jestliže ve veřejné silniční osobní dopravě nebyl cestující přepraven včas:",
                 type: "text",
@@ -3972,7 +3972,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 6,
+                index: 6,
                 text:
                     "Cestující ve veřejné silniční osobní dopravě, u něhož nebyla provedena přeprava z důvodu na straně dopravce:",
                 type: "text",
@@ -3995,7 +3995,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 7,
+                index: 7,
                 text:
                     "Cestující ve veřejné silniční osobní dopravě, který byl vyloučen z přepravy pověřenou osobou:",
                 type: "text",
@@ -4019,7 +4019,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 8,
+                index: 8,
                 text:
                     "Naklápění nízkopodlažního autobusu v zastávce provádí řidič:",
                 type: "text",
@@ -4042,7 +4042,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 9,
+                index: 9,
                 text:
                     "Jaké oprávnění má řidič v pravidelné autobusové dopravě v případě, že přepravované domácí zvíře cestujícího ohrožuje zdraví ostatních cestujících?",
                 type: "text",
@@ -4066,7 +4066,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 10,
+                index: 10,
                 text:
                     "Může řidič vyloučit z přepravy osobu, která svým chováním narušuje bezpečnou, klidnou a pohodlnou přepravu?",
                 type: "text",
@@ -4090,7 +4090,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 11,
+                index: 11,
                 text: "Nejvýraznější a základní charakteristikou logistiky je:",
                 type: "text",
                 videoLink: null,
@@ -4111,7 +4111,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 12,
+                index: 12,
                 text: "Logistika se nezabývá:",
                 type: "text",
                 videoLink: null,
@@ -4134,7 +4134,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 13,
+                index: 13,
                 text: "Typickým rysem logistiky je, že:",
                 type: "text",
                 videoLink: null,
@@ -4157,7 +4157,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 14,
+                index: 14,
                 text: "Pojem „logistika“ v ekonomických procesech označuje:",
                 type: "text",
                 videoLink: null,
@@ -4181,7 +4181,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 15,
+                index: 15,
                 text: "Zaměstnavatel je povinen zajistit, aby řidič:",
                 type: "text",
                 videoLink: null,
@@ -4203,7 +4203,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 16,
+                index: 16,
                 text:
                     "Skleněné přepážky kabiny řidiče autobusu, které primárně ochraňují řidiče před nepříznivými vlivy z okolí, mohou také:",
                 type: "text",
@@ -4227,7 +4227,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 17,
+                index: 17,
                 text:
                     "Přepravní smlouva mezi cestujícím ve veřejné silniční osobní dopravě a dopravcem je uzavřena",
                 type: "text",
@@ -4251,7 +4251,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 18,
+                index: 18,
                 text: "Přeprava zavazadel je součástí:",
                 type: "text",
                 videoLink: null,
@@ -4273,7 +4273,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 19,
+                index: 19,
                 text: "Jednou z charakteristických vlastností logistiky je:",
                 type: "text",
                 videoLink: null,
@@ -4294,7 +4294,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 20,
+                index: 20,
                 text: "Mezi komponenty oběhového procesu nepatří:",
                 type: "text",
                 videoLink: null,
@@ -4315,7 +4315,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 21,
+                index: 21,
                 text: "Pro konkurenceschopnost na trhu je podmínkou:",
                 type: "text",
                 videoLink: null,
@@ -4336,7 +4336,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 22,
+                index: 22,
                 text: "Co je logistika?",
                 type: "text",
                 videoLink: null,
@@ -4359,7 +4359,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 23,
+                index: 23,
                 text: "Co je doprava Just in Time?",
                 type: "text",
                 videoLink: null,
@@ -4381,7 +4381,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 24,
+                index: 24,
                 text:
                     "Jaká je důležitá povinnost dopravce (řidiče) v systému Just in Time?",
                 type: "text",
@@ -4404,7 +4404,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 25,
+                index: 25,
                 text: "Co je kanbanová karta?",
                 type: "text",
                 videoLink: null,
@@ -4428,7 +4428,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 26,
+                index: 26,
                 text: "Co je logistické distribuční centrum?",
                 type: "text",
                 videoLink: null,
@@ -4450,7 +4450,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 27,
+                index: 27,
                 text: "Co je Systém elektronické výměny dat (EDI)?",
                 type: "text",
                 videoLink: null,
@@ -4472,7 +4472,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 28,
+                index: 28,
                 text: "Co je vychystávací okno?",
                 type: "text",
                 videoLink: null,
@@ -4494,7 +4494,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 29,
+                index: 29,
                 text: "Co je časové okno?",
                 type: "text",
                 videoLink: null,
@@ -4515,7 +4515,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 30,
+                index: 30,
                 text: "Co je kombinovaná doprava?",
                 type: "text",
                 videoLink: null,
@@ -4539,7 +4539,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 31,
+                index: 31,
                 text:
                     "Z jakého dokladu řidič při přepravě v systému Just in Time zjistí kam a kdy má přistavit vozidlo k nakládce a vykládce?",
                 type: "text",
@@ -4563,7 +4563,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 32,
+                index: 32,
                 text: "Cílem logistiky je:",
                 type: "text",
                 videoLink: null,
@@ -4587,12 +4587,12 @@ export const topics: TTopics = [
     },
     {
         link: "http://etesty2.mdcr.cz/Test/TestPractise/30",
-        number: 4,
+        index: 4,
         title: "Hospodářské prostředí a organizace dopravního trhu",
         questionCount: 20,
         questions: [
             {
-                number: 1,
+                index: 1,
                 text:
                     "K provozování silniční motorové dopravy jako předmětu podnikání je zapotřebí:",
                 type: "text",
@@ -4610,13 +4610,13 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Mít koncesi vydanou příslušným oddělením dopravní policie.",
+                            "Mít koncesi vydanou příslušným oddělením dopravní policie. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 2,
+                index: 2,
                 text:
                     "Každý, kdo provozuje silniční motorovou dopravu musí splňovat po celou dobu trvání oprávnění podmínku:",
                 type: "text",
@@ -4639,7 +4639,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 3,
+                index: 3,
                 text: "Do přepravního procesu je možno zařadit:",
                 type: "text",
                 videoLink: null,
@@ -4660,7 +4660,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 4,
+                index: 4,
                 text: "K přepravnímu procesu u nákladní dopravy nepatří:",
                 type: "text",
                 videoLink: null,
@@ -4681,7 +4681,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 5,
+                index: 5,
                 text:
                     "Za mimořádně vysokých teplot jsou ochranné nápoje poskytovány:",
                 type: "text",
@@ -4704,7 +4704,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 6,
+                index: 6,
                 text:
                     "Za mimořádně chladný den je považován den s teplotu nižší než je:",
                 type: "text",
@@ -4726,7 +4726,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 7,
+                index: 7,
                 text:
                     "Při ochraně zdraví se počítá s mimořádně teplým dnem pokud teplota venkovního vzduchu přesáhne:",
                 type: "text",
@@ -4748,7 +4748,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 8,
+                index: 8,
                 text: "Periodická preventivní prohlídka zaměstnanců je:",
                 type: "text",
                 videoLink: null,
@@ -4772,7 +4772,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 9,
+                index: 9,
                 text:
                     "Po dobu výkonu pracovních směn, kdy budou teploty mimořádně vysoké a teplota vzduchu v kabinách vozidel se bude blížit 50 stupňům C má pracovník nárok:",
                 type: "text",
@@ -4780,7 +4780,7 @@ export const topics: TTopics = [
                 imageLinks: null,
                 answers: [
                     {
-                        text: "Na vydávání např. balených minerálních vod.",
+                        text: "Na vydávání např. balených minerálních vod. ",
                         isCorrect: true
                     },
                     {
@@ -4794,7 +4794,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 10,
+                index: 10,
                 text: "Prostoj při vykládce:",
                 type: "text",
                 videoLink: null,
@@ -4816,7 +4816,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 11,
+                index: 11,
                 text: "Přepravním procesem se rozumí:",
                 type: "text",
                 videoLink: null,
@@ -4837,7 +4837,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 12,
+                index: 12,
                 text: "Reklama na vozidle:",
                 type: "text",
                 videoLink: null,
@@ -4845,11 +4845,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "může být umístěna libovolně.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "nesmí znemožnit identifikaci vozidla.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "nesmí být realizována formou nástřiku.",
@@ -4858,7 +4858,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 13,
+                index: 13,
                 text: "Dopravní terminál je:",
                 type: "text",
                 videoLink: null,
@@ -4866,12 +4866,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "každé místo bezpečnostní přestávky.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "místo, kde dochází k nakládce, vykládce nebo překládce objektu přepravy.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "místo ukončení cesty.",
@@ -4880,7 +4880,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 14,
+                index: 14,
                 text: "Dopravní terminál:",
                 type: "text",
                 videoLink: null,
@@ -4902,7 +4902,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 15,
+                index: 15,
                 text:
                     "Podle charakteru dopravního prostředku a dopravní cesty dělíme dopravu na:",
                 type: "text",
@@ -4911,11 +4911,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "zvláštní a kombinovanou.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "silniční, železniční, leteckou a vodní.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "pravidelnou, kyvadlovou a příležitostnou.",
@@ -4924,7 +4924,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 16,
+                index: 16,
                 text: "Reklama na vozidle:",
                 type: "text",
                 videoLink: null,
@@ -4946,7 +4946,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 17,
+                index: 17,
                 text: "Ten, kdo objednává přepravu, je:",
                 type: "text",
                 videoLink: null,
@@ -4954,7 +4954,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "dopravce.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "řidič.",
@@ -4962,12 +4962,12 @@ export const topics: TTopics = [
                     },
                     {
                         text: "přepravce.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 18,
+                index: 18,
                 text: "Řidič vozidla:",
                 type: "text",
                 videoLink: null,
@@ -4976,12 +4976,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "se nezajímá o celkový obraz firmy nebo společnosti.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "může svým nekvalitním výkonem negativně ovlivnit celkový produkt (vlastní přepravu).",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -4991,7 +4991,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 19,
+                index: 19,
                 text: "Obecná ustanovení o pracovní době jsou zakotvena:",
                 type: "text",
                 videoLink: null,
@@ -5000,7 +5000,7 @@ export const topics: TTopics = [
                     {
                         text:
                             "pouze v pracovním řádu dopravní firmy nebo společnosti.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
@@ -5009,12 +5009,12 @@ export const topics: TTopics = [
                     },
                     {
                         text: "v zákoníku práce.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 20,
+                index: 20,
                 text:
                     "Na pozitivní obraz dopravní společnosti působí mimo jiné",
                 type: "text",
@@ -5023,11 +5023,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "druh přepravovaného zboží.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "chování všech zaměstnanců.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "věkový průměr zaměstnanců.",
@@ -5039,12 +5039,12 @@ export const topics: TTopics = [
     },
     {
         link: "http://etesty2.mdcr.cz/Test/TestPractise/31",
-        number: 5,
+        index: 5,
         title: "Sociálně-právní prostředí v silniční dopravě",
         questionCount: 24,
         questions: [
             {
-                number: 1,
+                index: 1,
                 text:
                     "Pracovní týden pro stanovení režimu práce v mezinárodní silniční dopravě:",
                 type: "text",
@@ -5053,7 +5053,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Je období mezi v 0,00 hodin v  pondělí a končící ve 24 hodin v neděli.",
+                            "Je období mezi v 0,00 hodin v  pondělí a končící ve 24 hodin v neděli. ",
                         isCorrect: true
                     },
                     {
@@ -5069,7 +5069,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 2,
+                index: 2,
                 text:
                     "Jakou platnost má karta řidiče do digitálního tachografu?",
                 type: "text",
@@ -5091,7 +5091,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 3,
+                index: 3,
                 text:
                     "Jaká je minimální doba přestávky v dálkové vnitrostátní silniční dopravě, kterou musí řidič čerpat po nepřetržitém řízení vozidla 4,5 hodiny, jestliže nenastupuje denní čas odpočinku nebo týdenní čas odpočinku?",
                 type: "text",
@@ -5113,7 +5113,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 4,
+                index: 4,
                 text:
                     "Jaká je maximální nepřetržitá doba řízení vozidla ve vnitrostátní silniční dopravě s vozidlem s celkovou hmotností vyšší než 3,5 tuny?",
                 type: "text",
@@ -5135,7 +5135,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 5,
+                index: 5,
                 text: "Plovoucí den představuje úsek:",
                 type: "text",
                 videoLink: null,
@@ -5152,13 +5152,13 @@ export const topics: TTopics = [
                         isCorrect: false
                     },
                     {
-                        text: "Denního řízení bez doby denního odpočinku.",
+                        text: "Denního řízení bez doby denního odpočinku. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 6,
+                index: 6,
                 text:
                     "Pokud osádka vozidla doprovází vozidlo během dopravy na trajektu, tak se jí tato doba započítává do:",
                 type: "text",
@@ -5180,7 +5180,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 7,
+                index: 7,
                 text:
                     "Jiné práce, jako je doba čekání, úklid vozidla a další práce, se započítávají do:",
                 type: "text",
@@ -5202,7 +5202,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 8,
+                index: 8,
                 text: "Přestávka na jídlo a oddech se musí čerpat:",
                 type: "text",
                 videoLink: null,
@@ -5226,7 +5226,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 9,
+                index: 9,
                 text:
                     "Přeprava sdružovaných kusových zásilek z domu do domu podle přepravního řádu a založená na sdružování ve sběrných střediscích je:",
                 type: "text",
@@ -5248,7 +5248,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 10,
+                index: 10,
                 text:
                     "Silniční celovozová přeprava musí splňovat tyto podmínky:",
                 type: "text",
@@ -5273,7 +5273,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 11,
+                index: 11,
                 text: "Tarify si určuje:",
                 type: "text",
                 videoLink: null,
@@ -5297,7 +5297,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 12,
+                index: 12,
                 text: "Tarify silniční dopravy závisejí na:",
                 type: "text",
                 videoLink: null,
@@ -5318,7 +5318,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 13,
+                index: 13,
                 text: "Řidič může trávit denní čas odpočinku:",
                 type: "text",
                 videoLink: null,
@@ -5341,7 +5341,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 14,
+                index: 14,
                 text:
                     "Nákladní list CMR je tzv. deklarativní doklad, což znamená, že:",
                 type: "text",
@@ -5366,7 +5366,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 15,
+                index: 15,
                 text: "Co označuje zkratka ADR?",
                 type: "text",
                 videoLink: null,
@@ -5390,7 +5390,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 16,
+                index: 16,
                 text:
                     "„Dohoda o mezinárodních přepravách zkazitelných potravin a specializovaných prostředcích určených pro tyto přepravy“ má  zkratku:",
                 type: "text",
@@ -5412,7 +5412,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 17,
+                index: 17,
                 text:
                     "„Evropská dohoda o mezinárodní silniční přepravě nebezpečných věcí“ se označuje:",
                 type: "text",
@@ -5434,7 +5434,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 18,
+                index: 18,
                 text:
                     '"Dohoda o přepravní smlouvě v mezinárodní silniční dopravě“ má zkratku',
                 type: "text",
@@ -5456,7 +5456,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 19,
+                index: 19,
                 text:
                     "Činnost řízení započala ve 22,00 hodin a následující den se přechází na letní čas. Kdy budete přestavovat na analogovém tachografu správný čas?",
                 type: "text",
@@ -5481,7 +5481,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 20,
+                index: 20,
                 text:
                     "Údaje z karty digitálního tachografu je nutno stahovat po:",
                 type: "text",
@@ -5503,7 +5503,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 21,
+                index: 21,
                 text: "Při okružní jízdě se jedná o:",
                 type: "text",
                 videoLink: null,
@@ -5527,7 +5527,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 22,
+                index: 22,
                 text:
                     "Jak budete postupovat, jestliže dojde k poruše záznamového zařízení (tachografu)?",
                 type: "text",
@@ -5552,7 +5552,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 23,
+                index: 23,
                 text:
                     "Za osoby s omezenou schopností pohybu a orientace se dle přepravního řádu považují:",
                 type: "text",
@@ -5576,7 +5576,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 24,
+                index: 24,
                 text: "Během delší jízdy se řidič má stravovat:",
                 type: "text",
                 videoLink: null,
@@ -5600,12 +5600,12 @@ export const topics: TTopics = [
     },
     {
         link: "http://etesty2.mdcr.cz/Test/TestPractise/32",
-        number: 6,
+        index: 6,
         title: "Zdravotní rizika a jejich předcházení",
         questionCount: 92,
         questions: [
             {
-                number: 1,
+                index: 1,
                 text:
                     "V případě, že v důsledku dopravní nehody došlo k zranění osob, je řidič povinen:",
                 type: "text",
@@ -5630,7 +5630,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 2,
+                index: 2,
                 text: "Nejvhodnější první pomocí při mdlobě je:",
                 type: "text",
                 videoLink: null,
@@ -5651,7 +5651,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 3,
+                index: 3,
                 text: "Dýchací cesty uvolníme:",
                 type: "text",
                 videoLink: null,
@@ -5673,7 +5673,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 4,
+                index: 4,
                 text: "Je vhodné řídit automobil v době, kdy jste nemocní?",
                 type: "text",
                 videoLink: null,
@@ -5681,12 +5681,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Ano, nemoc nevadí.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "Ne, i lehké onemocnění může zhoršit pozornost řidiče.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -5696,7 +5696,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 5,
+                index: 5,
                 text:
                     "Užívání léků, které jsou označeny v příbalovém letáku jako nevhodné pro osoby, které vykonávají činnost se zvýšenou pozorností, ovlivňují u řidiče především :",
                 type: "text",
@@ -5705,11 +5705,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Pohyblivost.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "Pozornost.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "Chuť k jídlu.",
@@ -5718,7 +5718,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 6,
+                index: 6,
                 text:
                     "Bezpečnostní přestávky a přestávky na jídlo a oddech se:",
                 type: "text",
@@ -5740,7 +5740,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 7,
+                index: 7,
                 text: "Mezinárodní číslo tísňové linky je:",
                 type: "text",
                 videoLink: null,
@@ -5761,7 +5761,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 8,
+                index: 8,
                 text: "Zraněnému člověku hrozí vždy:",
                 type: "text",
                 videoLink: null,
@@ -5782,7 +5782,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 9,
+                index: 9,
                 text: "Krvácení z nosu zastavíme:",
                 type: "text",
                 videoLink: null,
@@ -5790,7 +5790,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Předkloněním hlavy, stiskem kořene nosu a přiložením studených obkladů na zátylek.",
+                            "Předkloněním hlavy, stiskem kořene nosu a přiložením studených obkladů na zátylek. ",
                         isCorrect: true
                     },
                     {
@@ -5806,7 +5806,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 10,
+                index: 10,
                 text: "Pacienta ve stavu bezvědomí poznáme podle:",
                 type: "text",
                 videoLink: null,
@@ -5828,7 +5828,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 11,
+                index: 11,
                 text: "U pacienta v bezvědomí jako první zkontrolujeme:",
                 type: "text",
                 videoLink: null,
@@ -5849,7 +5849,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 12,
+                index: 12,
                 text: "U dopravní nehody ošetřujeme zraněné v tomto pořadí:",
                 type: "text",
                 videoLink: null,
@@ -5873,7 +5873,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 13,
+                index: 13,
                 text: "Poskytnout první pomoc:",
                 type: "text",
                 videoLink: null,
@@ -5894,7 +5894,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 14,
+                index: 14,
                 text: "Při umělém dýchání z úst do úst:",
                 type: "text",
                 videoLink: null,
@@ -5915,7 +5915,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 15,
+                index: 15,
                 text: "Reakční dobu řidiče prodlužuje:",
                 type: "text",
                 videoLink: null,
@@ -5937,7 +5937,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 16,
+                index: 16,
                 text: "Při resuscitaci (oživování) je především důležité:",
                 type: "text",
                 videoLink: null,
@@ -5958,7 +5958,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 17,
+                index: 17,
                 text: "Při srdeční masáži musí postižený ležet:",
                 type: "text",
                 videoLink: null,
@@ -5981,7 +5981,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 18,
+                index: 18,
                 text: "Rychlost odbourávání alkoholu v krvi:",
                 type: "text",
                 videoLink: null,
@@ -6002,7 +6002,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 19,
+                index: 19,
                 text: "Cizí předmět v oku ošetříme:",
                 type: "text",
                 videoLink: null,
@@ -6026,7 +6026,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 20,
+                index: 20,
                 text: "Cizí předmět z rány:",
                 type: "text",
                 videoLink: null,
@@ -6050,7 +6050,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 21,
+                index: 21,
                 text: "Při příjezdu k místu nehody:",
                 type: "text",
                 videoLink: null,
@@ -6074,7 +6074,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 22,
+                index: 22,
                 text: "U pacienta v bezvědomí kontrolujeme do příjezdu ZZS:",
                 type: "text",
                 videoLink: null,
@@ -6095,7 +6095,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 23,
+                index: 23,
                 text: "Postižený se srdeční zástavou zemře bez pomoci:",
                 type: "text",
                 videoLink: null,
@@ -6116,7 +6116,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 24,
+                index: 24,
                 text: "Volání na tísňovou linku:",
                 type: "text",
                 videoLink: null,
@@ -6137,7 +6137,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 25,
+                index: 25,
                 text:
                     "Zdravý člověk zareaguje na vzniklou situaci v dopravě za:",
                 type: "text",
@@ -6159,7 +6159,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 26,
+                index: 26,
                 text: "Člověku v bezvědomí nejvíce hrozí:",
                 type: "text",
                 videoLink: null,
@@ -6180,7 +6180,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 27,
+                index: 27,
                 text: "Rychlá reakce zraku je u řidiče nutná:",
                 type: "text",
                 videoLink: null,
@@ -6192,13 +6192,13 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "K zapamatování si registrační značky automobilů pro případ nehody.",
+                            "K zapamatování si registrační značky automobilů pro případ nehody.    ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 28,
+                index: 28,
                 text: "Při delší jízdě je největší nebezpečí usnutí řidiče:",
                 type: "text",
                 videoLink: null,
@@ -6206,11 +6206,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Mezi 18- 22 hodinou",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "Od půlnoci do šesti hodin ráno",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "Kolem půlnoci.",
@@ -6219,7 +6219,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 29,
+                index: 29,
                 text: "Zraněnému motocyklistovi ochrannou přilbu:",
                 type: "text",
                 videoLink: null,
@@ -6240,7 +6240,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 30,
+                index: 30,
                 text: "Příznivý vliv na řidiče má poslech hudby:",
                 type: "text",
                 videoLink: null,
@@ -6261,7 +6261,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 31,
+                index: 31,
                 text:
                     "Pokud se rozhodneme ponechat zraněného ve vozidle, je to proto, že:",
                 type: "text",
@@ -6285,7 +6285,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 32,
+                index: 32,
                 text: "Pozornost na dálnici snižuje:",
                 type: "text",
                 videoLink: null,
@@ -6293,11 +6293,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Rychlá jízda.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "Jednotvárná jízda.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "Hustota provozu.",
@@ -6306,7 +6306,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 33,
+                index: 33,
                 text: "Zraněného je potřeba vyprostit z vozidla:",
                 type: "text",
                 videoLink: null,
@@ -6328,7 +6328,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 34,
+                index: 34,
                 text:
                     "Co je nejčastější příčinou krátkého usnutí řidiče při jízdě?",
                 type: "text",
@@ -6337,17 +6337,17 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Noční jízda.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "Důsledek jednotvárné jízdy např. po dálnici nebo únavy apod.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 35,
+                index: 35,
                 text:
                     "Ke vnitřním zraněním běžně dochází již při rychlosti nárazu:",
                 type: "text",
@@ -6369,7 +6369,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 36,
+                index: 36,
                 text: "Dojde-li k dopravní nehodě, je na prvním místě:",
                 type: "text",
                 videoLink: null,
@@ -6391,7 +6391,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 37,
+                index: 37,
                 text: "Při delší jízdě únavu nejlépe odstraníte:",
                 type: "text",
                 videoLink: null,
@@ -6399,7 +6399,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Poslechem hlasité hudby.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "Otevřením okna v automobilu.",
@@ -6408,12 +6408,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "Zastavením vozidla a krátkou procházkou nebo cvičením.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 38,
+                index: 38,
                 text: "Pomáhá káva k rychlejšímu odbourávání alkoholu z těla?",
                 type: "text",
                 videoLink: null,
@@ -6421,16 +6421,16 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Ano.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "Ne.",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 39,
+                index: 39,
                 text: "Po dobu delší jízdy se musí dodržovat pitný režim:",
                 type: "text",
                 videoLink: null,
@@ -6453,7 +6453,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 40,
+                index: 40,
                 text: "Na volné a široké silnici má řidič tendenci jet:",
                 type: "text",
                 videoLink: null,
@@ -6461,11 +6461,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Pomaleji a vychutnávat si jízdu.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "Rychleji, aniž by to postřehl.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "Stejnou rychlostí jako doposud.",
@@ -6474,7 +6474,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 41,
+                index: 41,
                 text:
                     "Může i banální onemocnění ovlivnit schopnost k řízení (např. bolest zubů, hlavy, zvýšená teplota)?",
                 type: "text",
@@ -6492,13 +6492,13 @@ export const topics: TTopics = [
                         isCorrect: false
                     },
                     {
-                        text: "Pokud jsem řidičem bez dopravních nehod, ne.",
+                        text: "Pokud jsem řidičem bez dopravních nehod, ne. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 42,
+                index: 42,
                 text: "Co ovlivňuje způsobilost řidiče k řízení vozidla?",
                 type: "text",
                 videoLink: null,
@@ -6507,12 +6507,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "Tělesná kondice (váha, výška, svalová hmota, trénovanost apod.)",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "Psychický stav (smutek, úzkost, stres, nedostatek spánku apod.)",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "Pouze znalost dopravních předpisů.",
@@ -6521,7 +6521,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 43,
+                index: 43,
                 text:
                     "Telefonní číslo na tísňovou linku Hasičského záchranného sboru je:",
                 type: "text",
@@ -6543,7 +6543,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 44,
+                index: 44,
                 text:
                     "Telefonní číslo na tísňovou linku Zdravotnické záchranné služby je:",
                 type: "text",
@@ -6565,7 +6565,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 45,
+                index: 45,
                 text:
                     "Pokud jsme svědky mimořádné události s velkým počtem raněných, je nezbytné nejprve:",
                 type: "text",
@@ -6590,7 +6590,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 46,
+                index: 46,
                 text:
                     "Standardní postup oživování (kardiopulmonální resuscitace) předepisuje střídání počtu stlačení hrudníku s umělými dechy v poměru:",
                 type: "text",
@@ -6612,7 +6612,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 47,
+                index: 47,
                 text:
                     "Může zlomenina stehenní kosti způsobit život ohrožující krevní ztrátu?",
                 type: "text",
@@ -6637,7 +6637,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 48,
+                index: 48,
                 text: "Při snímání přilby musíme zejména:",
                 type: "text",
                 videoLink: null,
@@ -6659,7 +6659,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 49,
+                index: 49,
                 text: "Na jaký podnět zareaguje zdravý člověk rychleji?",
                 type: "text",
                 videoLink: null,
@@ -6667,20 +6667,20 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "Na zrakový, např. světelné výstražné světlo.",
-                        isCorrect: true
-                    },
-                    {
-                        text: "Na sluchový - např. siréna, zvuk klaksonu.",
                         isCorrect: false
                     },
                     {
-                        text: "Na oba dva stejně rychle.",
+                        text: "Na sluchový - např. siréna, zvuk klaksonu.\t",
+                        isCorrect: true
+                    },
+                    {
+                        text: "Na oba dva stejně rychle. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 50,
+                index: 50,
                 text: "Nepřímou masáž srdce provádí zachránce nejlépe:",
                 type: "text",
                 videoLink: null,
@@ -6704,7 +6704,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 51,
+                index: 51,
                 text:
                     "Pokud se v zahraničí dostanete do tísňové situace, budete volat na mezinárodní telefonní číslo:",
                 type: "text",
@@ -6726,7 +6726,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 52,
+                index: 52,
                 text:
                     "Pro řidiče je nejnáročnější soustředit pozornost na jízdu:",
                 type: "text",
@@ -6748,7 +6748,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 53,
+                index: 53,
                 text: "Oživování (resuscitaci) dítěte zahajujeme:",
                 type: "text",
                 videoLink: null,
@@ -6771,7 +6771,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 54,
+                index: 54,
                 text: "Frekvence srdeční masáže, u dospělé osoby, by měla být:",
                 type: "text",
                 videoLink: null,
@@ -6792,7 +6792,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 55,
+                index: 55,
                 text: "Člověku v bezvědomí nesmíme nikdy hlavu:",
                 type: "text",
                 videoLink: null,
@@ -6813,7 +6813,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 56,
+                index: 56,
                 text: "Zraněného, kterému se špatně dýchá, bychom neměli:",
                 type: "text",
                 videoLink: null,
@@ -6835,7 +6835,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 57,
+                index: 57,
                 text: "Oživování (resuscitaci) dospělého zahajujeme:",
                 type: "text",
                 videoLink: null,
@@ -6858,7 +6858,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 58,
+                index: 58,
                 text: "Masivní krvácení v oblasti krku:",
                 type: "text",
                 videoLink: null,
@@ -6882,7 +6882,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 59,
+                index: 59,
                 text:
                     "Zastavení stříkajícího krvácení při poskytování první pomoci:",
                 type: "text",
@@ -6904,7 +6904,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 60,
+                index: 60,
                 text:
                     "Pro záchranu postiženého náhlou zástavou srdeční činnosti je v prvních minutách nejdůležitější:",
                 type: "text",
@@ -6926,7 +6926,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 61,
+                index: 61,
                 text: "Pacienta v bezvědomí ukládáme do polohy na boku:",
                 type: "text",
                 videoLink: null,
@@ -6947,7 +6947,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 62,
+                index: 62,
                 text: "Pokud nevím, jak poskytnout první pomoc:",
                 type: "text",
                 videoLink: null,
@@ -6969,7 +6969,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 63,
+                index: 63,
                 text: "Masivní nebo stříkající krvácení:",
                 type: "text",
                 videoLink: null,
@@ -6991,7 +6991,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 64,
+                index: 64,
                 text: "Masivní krvácení zastavujeme:",
                 type: "text",
                 videoLink: null,
@@ -7015,7 +7015,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 65,
+                index: 65,
                 text:
                     "K vypuzení cizího tělesa z dýchacích cest použijeme stlačení nadbřišku (Heimlichův manévr) u:",
                 type: "text",
@@ -7037,7 +7037,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 66,
+                index: 66,
                 text:
                     "Prvním výkonem při první pomoci u zraněného v bezvědomí bude:",
                 type: "text",
@@ -7059,7 +7059,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 67,
+                index: 67,
                 text:
                     "Jak se zachováte při kolapsovém stavu, kdy postižený upadne a ztrácí vědomí?",
                 type: "text",
@@ -7068,12 +7068,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "ihned zahájím resuscitaci",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "zvednu nohy postiženého a zajistím volné dýchací cesty",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "postiženého posadím a zavolám záchranou službu",
@@ -7082,7 +7082,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 68,
+                index: 68,
                 text: "Kdy zahájíte zevní srdeční masáž:",
                 type: "text",
                 videoLink: null,
@@ -7090,12 +7090,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "jen pokud u poraněného nehmatám pulz",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "pokud je poraněný v hlubokém bezvědomí a nedýchá",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "pokud masivně krvácí",
@@ -7104,7 +7104,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 69,
+                index: 69,
                 text: "U dopravní nehody s poraněním voláme jako první:",
                 type: "text",
                 videoLink: null,
@@ -7112,7 +7112,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "hasiče (150)",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "policii (158)",
@@ -7120,12 +7120,12 @@ export const topics: TTopics = [
                     },
                     {
                         text: "záchrannou službu (155)",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 70,
+                index: 70,
                 text:
                     "Poraněný se po dopravní nehodě se domáhá tekutin, jak se zachováte:",
                 type: "text",
@@ -7134,11 +7134,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "poskytnu mu tekutiny v neomezeném množství",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "nedám mu napít ani přes jeho naléhání",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "mohu mu dát i najíst",
@@ -7147,7 +7147,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 71,
+                index: 71,
                 text: "Při umělém dýchání z plic do plic u dospělého:",
                 type: "text",
                 videoLink: null,
@@ -7156,12 +7156,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "dýchám frekvencí alespoň 20 vdechů/min a vždy se snažím o co největší vdech",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "dýchám úplně normálně frekvencí 6-8 vdechů/min, bez extrémního nádechu a vdechu do poraněného",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -7171,7 +7171,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 72,
+                index: 72,
                 text:
                     "Jak budete postupovat, jste-li sami a opakovaně se Vám nedaří zajistit dýchací cesty:",
                 type: "text",
@@ -7181,12 +7181,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "budu pokračovat v opakovaných pokusech, dokud se mi to nepodaří",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "přeruším snažení po 3-4 pokusech a zahájím zevní srdeční masáž",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "vzdám se jakékoliv další aktivity",
@@ -7195,7 +7195,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 73,
+                index: 73,
                 text:
                     "U poraněného v hlubokém bezvědomí a bezdeší nastávají nezvratné změny mozkové tkáně do:",
                 type: "text",
@@ -7217,7 +7217,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 74,
+                index: 74,
                 text: "Při poranění motorkáře, který je v bezvědomí a nedýchá:",
                 type: "text",
                 videoLink: null,
@@ -7225,12 +7225,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "nikdy nesundávám přilbu",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "je nejlepší vyproštění hlavy ve dvou zachráncích, kdy jeden pevně svírá hlavu poraněného a druhý opatrně sejme přilbu",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "mohu sejmout přilbu jakýmkoliv způsobem",
@@ -7239,7 +7239,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 75,
+                index: 75,
                 text:
                     "Při úrazu hlavy s drobnějším viditelným krvácením nejvíce poraněného ohrožuje:",
                 type: "text",
@@ -7248,11 +7248,11 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "krvácení",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "následné bezvědomí při poranění mozkové tkáně",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "zlomeniny kostí lebky",
@@ -7261,7 +7261,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 76,
+                index: 76,
                 text:
                     "Při provádění zevní srdeční masáže je správné stlačení hrudní kosti asi o:",
                 type: "text",
@@ -7284,7 +7284,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 77,
+                index: 77,
                 text:
                     "Jak budete postupovat u poraněného, který má po pádu z motocyklu zlomenou dolní končetinu a reaguje na oslovení:",
                 type: "text",
@@ -7308,7 +7308,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 78,
+                index: 78,
                 text:
                     "Poraněný je v bezvědomí, leží na zádech a zatím dýchá. Náhle začne zvracet. Jak budete postupovat:",
                 type: "text",
@@ -7317,12 +7317,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "nechám ho zvracet, nehrozí mu žádné nebezpečí",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "otočím mu hlavu na stranu a snažím se mu vyčistit dutinu ústní",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -7332,7 +7332,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 79,
+                index: 79,
                 text: "Hrozí trestní postih, pokud neposkytnete první pomoc:",
                 type: "text",
                 videoLink: null,
@@ -7349,7 +7349,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 80,
+                index: 80,
                 text: "Pokud vidíte, že účastník nehody masivně krvácí:",
                 type: "text",
                 videoLink: null,
@@ -7358,12 +7358,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "vrátím se k vlastnímu vozu a začnu hledat v lékárničce obvazový materiál",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "neprodleně krvácející místo stlačím prsty, dlaní nebo složeným kusem oděvu",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -7373,7 +7373,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 81,
+                index: 81,
                 text: "Jak zjistíte stav vědomí pacienta:",
                 type: "text",
                 videoLink: null,
@@ -7395,7 +7395,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 82,
+                index: 82,
                 text: "Jak jednoznačně zjistíte, že poraněný dýchá:",
                 type: "text",
                 videoLink: null,
@@ -7403,21 +7403,21 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "je růžový",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "při sklonění se k ústům poraněného slyším jeho dech a cítím ho na své tváři",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
-                        text: "nemá příznaky cyanózy",
+                        text: "nemá příznaky cyanózy ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 83,
+                index: 83,
                 text: "Jak zajistíte průchodnost dýchacích cest:",
                 type: "text",
                 videoLink: null,
@@ -7440,7 +7440,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 84,
+                index: 84,
                 text: "Po zahájení resuscitace je nejdůležitější:",
                 type: "text",
                 videoLink: null,
@@ -7448,12 +7448,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "resuscitovat v přesně daném poměru 30:2",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "resuscitaci nepřerušovat do příjezdu ZS, obnovení dýchání nebo vlastního vyčerpání",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "pravidelně kontrolovat puls a dech poraněného",
@@ -7462,7 +7462,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 85,
+                index: 85,
                 text:
                     "Jste svědek dopravní nehody, na místě jsou dva zranění, z nichž jeden je v bezvědomí, druhý při vědomí, ale výrazně krvácí. Jaký bude Váš postup?",
                 type: "text",
@@ -7472,12 +7472,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "nejdříve zjistím, zda poraněný v bezvědomí dýchá",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
-                            "neprodleně zastavím masivní krvácení, zjistím stav poraněného v bezvědomí, zavolám ZS a zajistím místo nehody",
-                        isCorrect: false
+                            "neprodleně zastavím masivní krvácení, zjistím stav poraněného v bezvědomí, zavolám ZS a zajistím místo nehody ",
+                        isCorrect: true
                     },
                     {
                         text:
@@ -7487,7 +7487,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 86,
+                index: 86,
                 text:
                     "Zjistíte, že poraněný má v ráně zabodnuté cizí těleso. Co uděláte?",
                 type: "text",
@@ -7497,12 +7497,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "snažím se těleso opatrně z rány vyndat a zastavit krvácení",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "těleso ponechám v ráně, ošetřím okolní krvácení, zajistím životní funkce",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -7512,7 +7512,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 87,
+                index: 87,
                 text:
                     "Poraněný je při vědomí a velmi silně krvácí z rány na krku. Co uděláte?",
                 type: "text",
@@ -7522,12 +7522,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "vrátím se k vozu a začnu hledat v lékárničce vhodný obvazový materiál",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "neprodleně krvácející místo stlačím prsty, dlaní nebo složeným kusem oděvu",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -7537,7 +7537,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 88,
+                index: 88,
                 text:
                     "Poraněný je při vědomí a stěžuje si na silnou bolest v oblasti zad, eventuálně na brnění nebo necitlivost dolních končetin. Jaké by mohl mít poranění?",
                 type: "text",
@@ -7546,7 +7546,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "zlomeniny dolních končetin",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text: "poranění hrudníku",
@@ -7555,12 +7555,12 @@ export const topics: TTopics = [
                     {
                         text:
                             "poranění páteře, při změně citlivosti také poranění míchy",
-                        isCorrect: false
+                        isCorrect: true
                     }
                 ]
             },
             {
-                number: 89,
+                index: 89,
                 text:
                     "Poraněný je v bezvědomí a dýchá. Jakou pomoc mu poskytnete?",
                 type: "text",
@@ -7569,7 +7569,7 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "mírně zakloním hlavu a předsunu dolní čelist, uvolním mu tak dýchací cesty a budu ho sledovat do příjezdu ZS, pokud dýchat přestane, ihned zahájím oživování",
+                            "mírně zakloním hlavu a předsunu dolní čelist, uvolním mu tak dýchací cesty a budu ho sledovat do příjezdu ZS, pokud dýchat přestane, ihned zahájím oživování\n",
                         isCorrect: true
                     },
                     {
@@ -7584,7 +7584,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 90,
+                index: 90,
                 text: "Pro kvalitně prováděnou srdeční masáž je nejdůležitější",
                 type: "text",
                 videoLink: null,
@@ -7606,7 +7606,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 91,
+                index: 91,
                 text: "U poraněného s podezřením na úraz páteře:",
                 type: "text",
                 videoLink: null,
@@ -7614,12 +7614,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "smím s poraněným manipulovat bez omezení.",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "manipuluji s poraněným co nejméně, pouze v souvislosti se zajištěním životních funkcí.",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text: "s poraněným v žádném případě nehýbu.",
@@ -7628,7 +7628,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 92,
+                index: 92,
                 text: "Pří zevní srdeční masáži",
                 type: "text",
                 videoLink: null,
@@ -7636,12 +7636,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text: "vždy poraněného přesunu na pevnou podložku",
-                        isCorrect: true
+                        isCorrect: false
                     },
                     {
                         text:
                             "zahájím nepřímou srdeční masáž i v nevýhodné poloze (např. v sedu při zaklínění ve voze), pokud nelze poraněného rychle vyprostit",
-                        isCorrect: false
+                        isCorrect: true
                     },
                     {
                         text:
@@ -7654,12 +7654,12 @@ export const topics: TTopics = [
     },
     {
         link: "http://etesty2.mdcr.cz/Test/TestPractise/33",
-        number: 7,
+        index: 7,
         title: "Prevence a řešení mimořádných událostí",
         questionCount: 21,
         questions: [
             {
-                number: 1,
+                index: 1,
                 text:
                     "Za jízdy v noci se vám náhle v dálkových světlech objeví lesní zvěř. Jak se zachováte?",
                 type: "text",
@@ -7684,7 +7684,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 2,
+                index: 2,
                 text: "První aktivitou účastníků dopravní nehody musí být:",
                 type: "text",
                 videoLink: null,
@@ -7708,7 +7708,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 3,
+                index: 3,
                 text: "Jakým způsobem předvídáte nečekané situace?",
                 type: "text",
                 videoLink: null,
@@ -7731,7 +7731,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 4,
+                index: 4,
                 text:
                     "Pokud je řidič oslněn světly protijedoucího auta, oko se opět přizpůsobí normálnímu vidění za:",
                 type: "text",
@@ -7753,7 +7753,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 5,
+                index: 5,
                 text: "Během bezpečnostní přestávky řidič:",
                 type: "text",
                 videoLink: null,
@@ -7775,7 +7775,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 6,
+                index: 6,
                 text:
                     "Kde se mají zdržovat cestující v případě dopravní nehody na dálnici?",
                 type: "text",
@@ -7799,7 +7799,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 7,
+                index: 7,
                 text:
                     "Jaké činnosti nesmí vykonávat řidič, který je účastníkem dopravní nehody?",
                 type: "text",
@@ -7823,7 +7823,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 8,
+                index: 8,
                 text: "Po výměně kola matice na kole:",
                 type: "text",
                 videoLink: null,
@@ -7847,7 +7847,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 9,
+                index: 9,
                 text: "Když je při výměně kol nutno dohustit pneumatiku:",
                 type: "text",
                 videoLink: null,
@@ -7871,7 +7871,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 10,
+                index: 10,
                 text: "Při výměně kol:",
                 type: "text",
                 videoLink: null,
@@ -7894,7 +7894,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 11,
+                index: 11,
                 text: "Při výměně kola:",
                 type: "text",
                 videoLink: null,
@@ -7918,7 +7918,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 12,
+                index: 12,
                 text: "Při výměně kola:",
                 type: "text",
                 videoLink: null,
@@ -7941,7 +7941,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 13,
+                index: 13,
                 text: "Spoiler se nastavuje podle:",
                 type: "text",
                 videoLink: null,
@@ -7962,7 +7962,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 14,
+                index: 14,
                 text:
                     "Snížený tlak v pneumatikách o 100 kPa zvýší spotřebu paliva až o:",
                 type: "text",
@@ -7984,7 +7984,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 15,
+                index: 15,
                 text:
                     "Při nízkém tlaku v pneumatikách je překonáván zvýšený valivý odpor a:",
                 type: "text",
@@ -7998,7 +7998,7 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Snižuje se životnost pedálu akcelerace při překonávání zvýšeného valivého odporu vozidla.",
+                            "Snižuje se životnost pedálu akcelerace při překonávání zvýšeného valivého odporu vozidla. ",
                         isCorrect: false
                     },
                     {
@@ -8008,7 +8008,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 16,
+                index: 16,
                 text:
                     "Jak obvykle reaguje starší řidič nebo chodec na vnější podněty?",
                 type: "text",
@@ -8030,7 +8030,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 17,
+                index: 17,
                 text:
                     "V lesním úseku, kterým projíždíte se před vámi objeví vysoká lesní zvěř. Jak se zachováte?",
                 type: "text",
@@ -8055,7 +8055,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 18,
+                index: 18,
                 text: "Krátce běžet ve volnoběhu necháváme motor:",
                 type: "text",
                 videoLink: null,
@@ -8063,12 +8063,12 @@ export const topics: TTopics = [
                 answers: [
                     {
                         text:
-                            "Po delší jízdě na plný výkon z důvodu vyrovnání teploty nestejně tepelně zatížených míst.",
+                            "Po delší jízdě na plný výkon z důvodu vyrovnání teploty nestejně tepelně zatížených míst. ",
                         isCorrect: true
                     },
                     {
                         text:
-                            "Po velmi krátké a pomalé jízdě z důvodu vyrovnání teploty nestejně tepelně zatížených míst.",
+                            "Po velmi krátké a pomalé jízdě z důvodu vyrovnání teploty nestejně tepelně zatížených míst. ",
                         isCorrect: false
                     },
                     {
@@ -8079,7 +8079,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 19,
+                index: 19,
                 text: "Účastníkem dopravní nehody je:",
                 type: "text",
                 videoLink: null,
@@ -8102,7 +8102,7 @@ export const topics: TTopics = [
                 ]
             },
             {
-                number: 20,
+                index: 20,
                 text: "Volně napnutou plachtou vozidla je:",
                 type: "text",
                 videoLink: null,
@@ -8120,13 +8120,13 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Spotřeba vozidla není zvýšena, aerodynamický odpor vozidla nezvyšuje spotřebu paliva.",
+                            "Spotřeba vozidla není zvýšena, aerodynamický odpor vozidla nezvyšuje spotřebu paliva. ",
                         isCorrect: false
                     }
                 ]
             },
             {
-                number: 21,
+                index: 21,
                 text:
                     "Pokud je vozidlo vybaveno EDC (electronic diesel control) startujeme:",
                 type: "text",
@@ -8139,7 +8139,7 @@ export const topics: TTopics = [
                     },
                     {
                         text:
-                            "Při sešlápnutí pedálu akcelerace na polovinu výkonu motoru.",
+                            "Při sešlápnutí pedálu akcelerace na polovinu výkonu motoru. ",
                         isCorrect: false
                     },
                     {

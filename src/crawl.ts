@@ -26,7 +26,7 @@ export const moduleSimulation = 3;
             const topicTitle = topicHref.innerHTML;
             topics.push({
                 link: topicLink,
-                number: topicNum,
+                index: topicNum,
                 title: topicTitle,
                 questionCount: null
             });
@@ -119,7 +119,7 @@ export const moduleSimulation = 3;
                     }
 
                     return {
-                        number: questionNum,
+                        index: questionNum,
                         text: questionText,
                         type: questionType,
                         videoLink: videoLink,
