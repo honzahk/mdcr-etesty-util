@@ -34,7 +34,12 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
             return a;
         }
 
-        const topic = topics.find(topic => topic.index == parseInt(topicIndex));
+        //get the selected topic (in copy, because we might shuffle questions/answer)
+        const topic = JSON.parse(
+            JSON.stringify(
+                topics.find(topic => topic.index == parseInt(topicIndex))
+            )
+        );
         topic.questions = topic.questions.map(question => {
             return {
                 ...question,
@@ -43,6 +48,7 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
         });
 
         if (mode == "rand") {
+            console.log("eee");
             topic.questions = shuffle(topic.questions);
         }
 
@@ -50,7 +56,22 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
 
         //setup key handlers
         const onKeyUp = (e: KeyboardEvent) => {
-            if (e.key == "ArrowLeft") {
+            if (e.key == "1" || e.key == "2" || e.key == "3") {
+                //user can answer with keys 1/2/3
+                //parse the key, covert it to index by decrementing it
+                const answerIndex = parseInt(e.key) - 1;
+                if (
+                    (answerIndex >= 0 &&
+                        answerIndex <=
+                            stateRef.current.topic.questions[
+                                stateRef.current.questionIndex
+                            ].answers.length) == false
+                ) {
+                    //check if there are enough answers (some questions may have only 2 answers)
+                    return;
+                }
+                setState({ ...stateRef.current, userAnswerIndex: answerIndex });
+            } else if (e.key == "ArrowLeft") {
                 onClickPrevQuestion();
             } else if (e.key == "ArrowRight") {
                 onClickNextQuestion();
