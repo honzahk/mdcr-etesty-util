@@ -1,15 +1,29 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import ArrowBack from "@material-ui/icons/ArrowBack";
 import ArrowForward from "@material-ui/icons/ArrowForward";
 import { useParams, Link, RouteComponentProps } from "react-router-dom";
 import { topics, TTopic } from "./topics";
 
 export const TopicScreen: React.FC<RouteComponentProps> = props => {
-    const [topic, setTopic] = useState<null | TTopic>(null);
-    const [questionIndex, setQuestionIndex] = useState<number>(0);
-    const [userAnswerIndex, setUserAnswerIndex] = useState<null | number>(null);
+    const [state, setState] = useState<{
+        topic: null | TTopic;
+        questionIndex: number;
+        userAnswerIndex: null | number;
+    }>({
+        topic: null,
+        questionIndex: 0,
+        userAnswerIndex: null
+    });
 
-    const { topicIndex } = useParams<{ topicIndex: string }>();
+    //get params from url
+    const { mode, topicIndex } = useParams<{
+        mode: string;
+        topicIndex: string;
+    }>();
+
+    //we need fresh values of state for keyevent handlers (react hooks specific) - we need to use refs
+    const stateRef = useRef(state);
+    stateRef.current = state;
 
     useEffect(() => {
         function shuffle(a) {
@@ -27,14 +41,60 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
                 answers: shuffle(question.answers)
             };
         });
-        setTopic(topic);
+
+        if (mode == "rand") {
+            topic.questions = shuffle(topic.questions);
+        }
+
+        setState({ ...state, topic });
+
+        //setup key handlers
+        const onKeyUp = (e: KeyboardEvent) => {
+            if (e.key == "ArrowLeft") {
+                onClickPrevQuestion();
+            } else if (e.key == "ArrowRight") {
+                onClickNextQuestion();
+            }
+        };
+
+        window.addEventListener("keyup", onKeyUp);
+        // Remove event listeners on cleanup
+        return () => {
+            window.removeEventListener("keyup", onKeyUp);
+        };
     }, []);
 
-    if (topic == null) {
+    const onClickPrevQuestion = () => {
+        if (stateRef.current.questionIndex > 0 == false) {
+            return;
+        }
+        setState({
+            ...stateRef.current,
+            questionIndex: stateRef.current.questionIndex - 1,
+            userAnswerIndex: null
+        });
+    };
+
+    const onClickNextQuestion = () => {
+        if (
+            stateRef.current.questionIndex <
+                stateRef.current.topic.questionCount - 1 ==
+            false
+        ) {
+            return;
+        }
+        setState({
+            ...stateRef.current,
+            questionIndex: stateRef.current.questionIndex + 1,
+            userAnswerIndex: null
+        });
+    };
+
+    if (state.topic == null) {
         return <div>loadinggg...</div>;
     }
 
-    const question = topic.questions[questionIndex];
+    const question = state.topic.questions[state.questionIndex];
     const correctAnswerIndex = question.answers.findIndex(
         answer => answer.isCorrect
     );
@@ -55,7 +115,7 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
                 >
                     <ArrowBack color="primary" />
                 </Link>
-                <h2 style={{ marginLeft: 20 }}>{topic.title}</h2>
+                <h2 style={{ marginLeft: 20 }}>{state.topic.title}</h2>
             </div>
             <div style={{ paddingLeft: 50 }}>
                 <div style={{ marginBottom: 20 }}>
@@ -63,7 +123,8 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
                         <div
                             style={{ display: "inline-block", marginRight: 10 }}
                         >
-                            [{question.index}/{topic.questionCount}]
+                            [{state.questionIndex + 1}/
+                            {state.topic.questionCount}] (n. {question.index})
                         </div>
                         {question.text}
                     </b>
@@ -71,7 +132,7 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
                 <div style={{ width: 600 }}>
                     {question.answers.map((answer, answerIndex) => {
                         let backgroundColor = null;
-                        if (answerIndex == userAnswerIndex) {
+                        if (answerIndex == state.userAnswerIndex) {
                             //always mark user's answer as red
                             backgroundColor = "red";
                         }
@@ -84,39 +145,37 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
                             <div
                                 key={answerIndex}
                                 style={{
-                                    ...(userAnswerIndex != null && {
+                                    ...(state.userAnswerIndex != null && {
                                         backgroundColor: backgroundColor
                                     }),
                                     border: "1px solid black",
                                     padding: "10px"
                                 }}
                                 onClick={() =>
-                                    userAnswerIndex == null &&
-                                    setUserAnswerIndex(answerIndex)
+                                    state.userAnswerIndex == null &&
+                                    setState({
+                                        ...state,
+                                        userAnswerIndex: answerIndex
+                                    })
                                 }
                             >
                                 {answer.text}
                             </div>
                         );
                     })}
-                    {userAnswerIndex != null && (
+                    {state.userAnswerIndex != null && (
                         <div style={{ float: "right", marginTop: 20 }}>
-                            {questionIndex > 0 && (
+                            {state.questionIndex > 0 && (
                                 <ArrowBack
                                     style={{ marginRight: 10 }}
-                                    onClick={() => {
-                                        setQuestionIndex(questionIndex - 1);
-                                        setUserAnswerIndex(null);
-                                    }}
+                                    onClick={onClickPrevQuestion}
                                 />
                             )}
-                            {questionIndex < topic.questionCount - 1 && (
+                            {state.questionIndex <
+                                state.topic.questionCount - 1 && (
                                 <ArrowForward
                                     style={{ marginRight: 10 }}
-                                    onClick={() => {
-                                        setQuestionIndex(questionIndex + 1);
-                                        setUserAnswerIndex(null);
-                                    }}
+                                    onClick={onClickNextQuestion}
                                 />
                             )}
                         </div>

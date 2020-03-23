@@ -22,7 +22,7 @@ export const App: React.FC = () => {
                 <Switch>
                     <Route exact path={`/`} component={HomeScreen} />} />
                     <Route
-                        path={`/topic/(seq|rand)/:topicIndex`}
+                        path={`/topic/:mode(seq|rand)/:topicIndex`}
                         component={TopicScreen}
                     />
                     <Route render={() => <div>404</div>} />
