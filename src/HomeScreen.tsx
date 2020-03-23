@@ -8,7 +8,11 @@ export const HomeScreen: React.FC = () => {
             {topics.map(topic => {
                 return (
                     <li key={topic.index}>
-                        <Link to={`/topic/${topic.index}`}>{topic.title}</Link>
+                        <Link to={`/topic/seq/${topic.index}`}>seq</Link>
+                        {` | `}
+                        <Link to={`/topic/rand/${topic.index}`}>rand</Link>
+                        {` | `}
+                        {topic.title}
                     </li>
                 );
             })}

@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { MuiThemeProvider } from "@material-ui/core";
+import { MuiThemeProvider, createMuiTheme } from "@material-ui/core";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import { topics } from "./topics";
 import { TopicScreen } from "./TopicScreen";
 import { HomeScreen } from "./HomeScreen";
+
+const theme = createMuiTheme({});
 
 export const App: React.FC = () => {
     const [state, setState] = useState<{ topics: typeof topics }>({
@@ -15,12 +17,12 @@ export const App: React.FC = () => {
     }
 
     return (
-        <MuiThemeProvider theme={null}>
+        <MuiThemeProvider theme={theme}>
             <BrowserRouter>
                 <Switch>
                     <Route exact path={`/`} component={HomeScreen} />} />
                     <Route
-                        path={`/topic/:topicIndex`}
+                        path={`/topic/(seq|rand)/:topicIndex`}
                         component={TopicScreen}
                     />
                     <Route render={() => <div>404</div>} />
