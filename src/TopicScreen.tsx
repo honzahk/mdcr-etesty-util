@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import ArrowBack from "@material-ui/icons/ArrowBack";
 import ArrowForward from "@material-ui/icons/ArrowForward";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, RouteComponentProps } from "react-router-dom";
 import { topics, TTopic } from "./topics";
 
-export const TopicScreen: React.FC = () => {
+export const TopicScreen: React.FC<RouteComponentProps> = props => {
     const [topic, setTopic] = useState<null | TTopic>(null);
     const [questionIndex, setQuestionIndex] = useState<number>(0);
     const [userAnswerIndex, setUserAnswerIndex] = useState<null | number>(null);
@@ -70,15 +70,16 @@ export const TopicScreen: React.FC = () => {
                 </div>
                 <div style={{ width: 600 }}>
                     {question.answers.map((answer, answerIndex) => {
-                        let backgroundColor =
-                            answerIndex == userAnswerIndex &&
-                            answerIndex == correctAnswerIndex
-                                ? "green"
-                                : answerIndex == correctAnswerIndex
-                                ? "green"
-                                : answerIndex == userAnswerIndex
-                                ? "red"
-                                : null;
+                        let backgroundColor = null;
+                        if (answerIndex == userAnswerIndex) {
+                            //always mark user's answer as red
+                            backgroundColor = "red";
+                        }
+                        if (answerIndex == correctAnswerIndex) {
+                            //always mark correct answer as green - that will even overwrite user's red answer if it was correct
+                            backgroundColor = "lawngreen";
+                        }
+
                         return (
                             <div
                                 key={answerIndex}
