@@ -3,6 +3,7 @@ import ArrowBack from "@material-ui/icons/ArrowBack";
 import ArrowForward from "@material-ui/icons/ArrowForward";
 import { useParams, Link, RouteComponentProps } from "react-router-dom";
 import { topics, TTopic } from "./topics";
+import ReactPlayer from "react-player";
 
 export const TopicScreen: React.FC<RouteComponentProps> = props => {
     const [state, setState] = useState<{
@@ -34,21 +35,37 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
             return a;
         }
 
-        //get the selected topic (in copy, because we might shuffle questions/answer)
-        const topic = JSON.parse(
+        //get the selected topic (we need a deep copy - we might shuffle questions/answers, so we do not modify original data)
+        const topic: TTopic = JSON.parse(
             JSON.stringify(
                 topics.find(topic => topic.index == parseInt(topicIndex))
             )
         );
+
         topic.questions = topic.questions.map(question => {
-            return {
-                ...question,
-                answers: shuffle(question.answers)
-            };
+            //we need to shuffle answers
+            //keep in mind - if the question type is "image", we need to shuffle the images also - but according to answers!!
+
+            //first, get total number of possible answers (number of question images should be the same)
+            const answerCount = question.answers.length;
+
+            //now, just create array with indexes and shuffle it
+            let indexes: number[] = shuffle([...Array(answerCount).keys()]);
+
+            //reorganize answers according to shuffled index array
+            question.answers = indexes.map(index => question.answers[index]);
+
+            if (question.type == "image") {
+                //reorganize images according to shuffled index array
+                question.imageLinks = indexes.map(
+                    index => question.imageLinks[index]
+                );
+            }
+
+            return question;
         });
 
         if (mode == "rand") {
-            console.log("eee");
             topic.questions = shuffle(topic.questions);
         }
 
@@ -140,15 +157,28 @@ export const TopicScreen: React.FC<RouteComponentProps> = props => {
             </div>
             <div style={{ paddingLeft: 50 }}>
                 <div style={{ marginBottom: 20 }}>
-                    <b>
-                        <div
-                            style={{ display: "inline-block", marginRight: 10 }}
-                        >
-                            [{state.questionIndex + 1}/
-                            {state.topic.questionCount}] (n. {question.index})
-                        </div>
-                        {question.text}
-                    </b>
+                    <div>
+                        <b>
+                            <div
+                                style={{
+                                    display: "inline-block",
+                                    marginRight: 10
+                                }}
+                            >
+                                [{state.questionIndex + 1}/
+                                {state.topic.questionCount}] (n.{" "}
+                                {question.index})
+                            </div>
+                            {question.text}
+                        </b>
+                    </div>
+                    {question.type == "video" && (
+                        <ReactPlayer url={question.videoLink} playing />
+                    )}
+                    {question.type == "image" &&
+                        question.imageLinks.map(imgLink => {
+                            return <img src={imgLink} />;
+                        })}
                 </div>
                 <div style={{ width: 600 }}>
                     {question.answers.map((answer, answerIndex) => {
